@@ -16,4 +16,4 @@ This theme applies a few colors, but leaves the class names mostly ungrouped so 
 This theme also removes borders for a flat look, as well as replaces the font on most text elements. Finally, it forces the full display name and account handle to be shown, and on separate lines.
 
 # Etc.
-Feel free to contact or follow me on Mastodon if you wish: ![@trwnh@mastodon.social](http://mastodon.social/@trwnh)
+Feel free to contact or follow me on Mastodon if you wish: [@trwnh@mastodon.social](http://mastodon.social/@trwnh)
