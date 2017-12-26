@@ -1,0 +1,35 @@
+/*---RECOLORING---*/
+/*leftmost side*/
+.drawer__header {background: #357}
+.drawer__inner {background: #357}
+.search__input {background: #123}
+
+/*columns*/
+.column-header, .column-header__button, .column-back-button, .column-header__back-button {background: #357}
+.column>.scrollable {background: #123}
+.column-link {background: #123}
+.column-subheading {background: #051119}
+
+/*main page gutter*/
+.ui {background: #051119}
+
+/*account view*/
+.account__header {background: #357}
+.account__header>div {background: rgba(0,0,0,0.5)}
+
+/*toot detail*/
+.detailed-status, .detailed-status__action-bar {background: #123}
+
+/*---MISC TWEAKS---*/
+
+/*no borders*/
+* {border: 0 !important}
+
+/*custom font*/
+h1,h2,h3,h4,h5,h6,p,a,span,div {font-family: "Roboto Condensed" !important}
+
+/*always show full name and handle*/
+.display-name {overflow: visible; white-space: normal;}
+
+/*line break between name and handle*/
+.display-name__html {display: block;}
