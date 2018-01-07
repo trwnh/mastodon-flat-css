@@ -6,7 +6,7 @@
 
 /*columns*/
 .column-header, .column-header__button, .column-back-button, .column-header__back-button {background: #357}
-.column>.scrollable {background: #123}
+.column>.scrollable, .getting-started {background: #123}
 .column-link {background: #123}
 .column-subheading {background: #051119}
 
