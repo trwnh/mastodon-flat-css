@@ -1,24 +1,44 @@
 /*---RECOLORING---*/
 /*leftmost side*/
-.drawer__header {background: #357}
-.drawer__inner {background: #357}
-.search__input {background: #123}
+.drawer__header,
+.drawer__inner,
+.drawer__inner__mastodon
+{background: #357}
+.search__input
+{background: #123}
 
 /*columns*/
-.column-header, .column-header__button, .column-back-button, .column-header__back-button {background: #357}
-.column>.scrollable, .getting-started {background: #123}
-.column-link {background: #123}
-.column-subheading {background: #051119}
+.column-header,
+.column-header__button,
+.column-back-button,
+.column-header__back-button
+{background: #357}
+.column>.scrollable,
+.column-link,
+.getting-started
+{background: #123}
+.column-subheading
+{background: #051119}
 
 /*main page gutter*/
 .ui {background: #051119}
 
 /*account view*/
-.account__header {background: #357}
-.account__header>div {background: rgba(0,0,0,0.5)}
+.account__header
+{background: #357}
+.account__header>div
+{background: rgba(0,0,0,0.5)}
+.account__action-bar
+{background: #123}
+.account__section-headline
+{background: #051119}
+.account__section-headline a.active::after
+{border-color: transparent transparent #123}
 
 /*toot detail*/
-.detailed-status, .detailed-status__action-bar {background: #123}
+.detailed-status,
+.detailed-status__action-bar
+{background: #123}
 
 /*---MISC TWEAKS---*/
 
@@ -26,7 +46,8 @@
 * {border: 0 !important}
 
 /*custom font*/
-h1,h2,h3,h4,h5,h6,p,a,span,div {font-family: "Roboto Condensed" !important}
+h1,h2,h3,h4,h5,h6,p,a,span,div
+{font-family: "Roboto Condensed" !important}
 
 /*always show full name and handle*/
 .display-name {overflow: visible; white-space: normal;}
