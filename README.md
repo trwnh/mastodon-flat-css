@@ -1,7 +1,7 @@
 # mastodon-midnight-blue-theme
 Mastodon Midnight Blue is a CSS theme for Mastodon, similar to Twitter's Dark Mode. 
 
-![Demo screenshot](https://github.com/trwnh/mastodon-midnight-blue-theme/blob/master/chrome_2017-12-26_08-20-00.png?raw=true)
+![Demo screenshot](https://raw.githubusercontent.com/trwnh/mastodon-midnight-blue-theme/master/chrome_2018-03-07_02-39-20.png)
 
 # How to use
 1. Install a user-style manager, such as [Stylus](https://github.com/openstyles/stylus).
