@@ -1,27 +1,58 @@
 /*---RECOLORING---*/
+/*main page gutter*/
+.ui {background: #051119}
+
 /*leftmost side*/
 .drawer__header,
 .drawer__inner,
-.drawer__inner__mastodon
+.drawer__inner__mastodon,
+.tabs-bar
 {background: #357}
-.search__input
+.search__input,
+.drawer__inner.darker,
+.search-results__section h5 span,
+.search-results__header,
+.search-popout
 {background: #123}
+.search__input:focus
+{background: #051119}
+.search-popout em {color: white}
+
+/*tootbox*/
+.compose-form .autosuggest-textarea__textarea,
+.compose-form .spoiler-input__input,
+.compose-form .compose-form__modifiers
+{background: #123; color: white}
+.compose-form .compose-form__buttons-wrapper
+{background: #051119}
+
+/*tootbuttons*/
+.compose-form__buttons button:hover,
+.icon-button.inverted:hover
+{color: #09f}
+.privacy-dropdown__option
+{background: #123; color: white}
+.privacy-dropdown__option strong,
+.compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter
+{color: white}
 
 /*columns*/
 .column-header,
 .column-header__button,
 .column-back-button,
-.column-header__back-button
+.column-header__back-button,
+.column-header__button.active,
+.column-header__collapsible-inner
 {background: #357}
 .column>.scrollable,
 .column-link,
-.getting-started
+.getting-started,
+.column-header__button:hover,
+.column-header__button.active:hover
 {background: #123}
-.column-subheading
+.column-subheading,
+.focusable:focus
 {background: #051119}
-
-/*main page gutter*/
-.ui {background: #051119}
 
 /*account view*/
 .account__header
