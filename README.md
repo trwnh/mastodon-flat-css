@@ -1,7 +1,10 @@
-# mastodon-midnight-blue-theme
-Mastodon Midnight Blue is a CSS theme for Mastodon, similar to Twitter's Dark Mode. 
+# mastodon-flat-css
+Mastodon Flat CSS (MFC) is a flat CSS theme for Mastodon, with varying palette options. Formerly known as Mastodon Midnight Blue.
 
+# Demo screenshots
+## Midnight Blue
 ![Midnight Blue](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-midnightBlue.png)
+## Clean Slate
 ![Clean Slate](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-cleanSlate.png)
 
 # How to use
