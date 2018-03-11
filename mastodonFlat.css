@@ -127,8 +127,8 @@ BACKGROUNDS
 {
     background: var(--bg);
 }
-.ui, .status.status-direct,
-.drawer__header, .drawer__inner, .drawer__inner__mastodon, .tabs-bar,
+body.app-body, .status.status-direct,
+.drawer__header, .tabs-bar,
 .compose-form .compose-form__buttons-wrapper,
 .reply-indicator,
 .column-subheading, .focusable:focus,
@@ -154,6 +154,10 @@ BACKGROUNDS
 .column-link:hover
 {
     background: var(--accent)
+}
+.ui, .drawer__inner, .drawer__inner__mastodon
+{
+    background: transparent
 }
 
 /*----------------
@@ -187,6 +191,7 @@ release elephant friend from their confines
     bottom: 0;
     left: 0;
     height: 180px;
+    z-index: -1
 }
 
 /* --------------------------------------------
