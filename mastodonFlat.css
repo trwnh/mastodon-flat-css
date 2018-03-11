@@ -6,8 +6,7 @@ MISC TWEAKS
 * {border: 0 !important}
 
 /* custom font */
-h1,h2,h3,h4,h5,h6,p,a,span,div
-{font-family: "Roboto Condensed" !important}
+body {font-family: "Roboto Condensed"}
 
 /*------------------
 DEFINE COLOR PALETTE
