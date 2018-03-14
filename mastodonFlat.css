@@ -208,6 +208,11 @@ release elephant friend from their confines
     z-index: -1
 }
 
+/*----------------------------------------------------------
+make transparent images actually transparent in media modals
+*/
+.media-modal canvas, .media-modal img {background: none}
+
 /* --------------------------------------------
 * various tweaks related to making account view
 * look a bit better
