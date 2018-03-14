@@ -68,7 +68,7 @@ body,
 {
     color: var(--textBold)
 }
-.notification__message, .status__prepend,
+.notification__message, .status__prepend, .status__relative-time,
 .muted .status__content a, .muted .status__content p,
 .muted .status__display-name strong,
 .status__prepend .status__display-name strong,
