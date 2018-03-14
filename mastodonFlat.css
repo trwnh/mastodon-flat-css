@@ -81,7 +81,7 @@ body,
 .account__action-bar__tab > span, .account__action-bar-dropdown .icon-button,
 .icon-button.inverted, .text-icon-button, .icon-button,
 .icon-button:active, .icon-button:focus, .icon-button:hover,
-.icon-button.disabled,
+.icon-button.disabled, .status.status-direct .icon-button.disabled,
 .empty-column-indicator, .error-column
 {
     color: var(--textMuted)
