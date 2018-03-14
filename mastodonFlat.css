@@ -72,9 +72,8 @@ body,
 .muted .status__content a, .muted .status__content p,
 .muted .status__display-name strong,
 .status__prepend .status__display-name strong,
-.status__display-name,
-.detailed-status__display-name,
-.navigation-bar, .getting-started p,
+.status__display-name, .detailed-status__display-name,
+.navigation-bar, .getting-started p, .getting-started a,
 .search__input, .search__icon .fa, .search-results__hashtag,
 .search-popout, .search-popout h4,
 .account .account__display-name, .account__section-headline a,
@@ -82,7 +81,7 @@ body,
 .icon-button.inverted, .text-icon-button, .icon-button,
 .icon-button:active, .icon-button:focus, .icon-button:hover,
 .icon-button.disabled, .status.status-direct .icon-button.disabled,
-.empty-column-indicator, .error-column
+.empty-column-indicator, .error-column, .column-subheading
 {
     color: var(--textMuted)
 }
