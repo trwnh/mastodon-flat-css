@@ -37,7 +37,6 @@ DEFINE COLOR PALETTE
 --accent: #09f;
 }
 */
-
 /*----------
 TEXT STYLING
 ----------*/
@@ -64,7 +63,8 @@ body,
 .search-popout em,
 .activity-stream .status.light .display-name strong,
 .activity-stream-tabs a.active,
-.activity-stream .status.light .status__content
+.activity-stream .status.light .status__content,
+.regeneration-indicator__label strong
 {
     color: var(--textBold)
 }
@@ -81,7 +81,8 @@ body,
 .icon-button.inverted, .text-icon-button, .icon-button,
 .icon-button:active, .icon-button:focus, .icon-button:hover,
 .icon-button.disabled, .status.status-direct .icon-button.disabled,
-.empty-column-indicator, .error-column, .column-subheading
+.empty-column-indicator, .error-column, .column-subheading,
+.regeneration-indicator, .nothing-here
 {
     color: var(--textMuted)
 }
@@ -97,7 +98,7 @@ body,
 .account__action-bar-dropdown .icon-button:hover,
 .icon-button.inverted:active, .icon-button.inverted:focus, .icon-button.inverted:hover,
 .text-icon-button:active, .text-icon-button:focus, .text-icon-button:hover,
-.icon-button:active, .icon-button:focus, .icon-button:hover
+.icon-button.active, .icon-button:active, .icon-button:focus, .icon-button:hover
 {
     color: var(--accent)
 }
@@ -132,11 +133,12 @@ BACKGROUNDS
 .empty-column-indicator, .error-column,
 .getting-started, .column-link,
 .detailed-status, .detailed-status__action-bar,
-.activity-stream .entry, .activity-stream-tabs
+.activity-stream .entry, .activity-stream-tabs,
+.regeneration-indicator
 {
     background: var(--bg);
 }
-body.app-body, .status.status-direct,
+body, body.app-body, .status.status-direct,
 .drawer__header, .tabs-bar,
 .drawer__inner.backdrop,
 .compose-form .compose-form__buttons-wrapper,
@@ -145,7 +147,8 @@ body.app-body, .status.status-direct,
 .dropdown-menu, .dropdown-menu__item a,
 .focusable:focus .detailed-status,
 .focusable:focus .detailed-status__action-bar,
-.status__content .status__content__spoiler-link:hover
+.status__content .status__content__spoiler-link:hover,
+.accounts-grid
 {
     background: var(--bgPage)
 }
@@ -158,7 +161,8 @@ body.app-body, .status.status-direct,
 .column-inline-form,
 .compose-form__publish:hover .button,
 .status__content .status__content__spoiler-link,
-.list-editor h4
+.list-editor h4,
+.keyboard-shortcuts kbd
 {
     background: var(--bgHead)
 }
