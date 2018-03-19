@@ -267,7 +267,9 @@ fix glowing elements when there are new toots to be fetched
 .icon-button:hover .fa-reply,
 .icon-button:active .fa-reply-all,
 .icon-button:focus .fa-reply-all,
-.icon-button:hover .fa-reply-all
+.icon-button:hover .fa-reply-all,
+.notification__message .fa,
+.account__relationship .icon-button.active
 {color: #09f}
 .icon-button:active .fa-star,
 .icon-button:focus .fa-star,
