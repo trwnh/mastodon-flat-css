@@ -2,6 +2,7 @@
 Mastodon Flat CSS (MFC) is a flat CSS theme for Mastodon, with varying palette options. Formerly known as Mastodon Midnight Blue.
 
 # Demo screenshots
+See all palette demos in the screenshots/ subfolder.
 ## Midnight Blue
 ![Midnight Blue](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-midnightBlue.png)
 ## Clean Slate
