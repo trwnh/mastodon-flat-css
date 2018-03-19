@@ -170,7 +170,10 @@ body, body.app-body, .status.status-direct,
 .compose-form__publish .button,
 .column-header__button:hover, .column-header__button.active:hover,
 .column-link:hover, .column-back-button:hover,
-.column-header>.column-header__back-button:hover {
+.column-header>.column-header__back-button:hover,
+.react-toggle--checked .react-toggle-track,
+.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track
+{
     background: var(--accent)
 }
 .ui, .drawer__inner, .drawer__inner__mastodon
