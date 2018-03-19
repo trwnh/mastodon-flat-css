@@ -216,6 +216,13 @@ make transparent images actually transparent in media modals
 */
 .media-modal canvas, .media-modal img {background: none}
 
+/*---------------------------------------------------------
+fix glowing elements when there are new toots to be fetched
+*/
+.column-header.active .column-header__icon {text-shadow: 0 0 10px var(--accent);}
+.column-header.active {box-shadow: 0 0 0;}
+.column-header__wrapper.active:before {background: radial-gradient(ellipse, var(--accent) 0, rgba(0,0,0,0) 60%);}
+
 /* --------------------------------------------
 * various tweaks related to making account view
 * look a bit better
