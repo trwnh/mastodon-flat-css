@@ -272,7 +272,8 @@ fix glowing elements when there are new toots to be fetched
 .icon-button:active .fa-star,
 .icon-button:focus .fa-star,
 .icon-button:hover .fa-star,
-.star-icon.active
+.star-icon.active,
+.notification__favourite-icon-wrapper .star-icon
 {color: #f90}
 .icon-button:active .fa-ellipsis-h,
 .icon-button:focus .fa-ellipsis-h,
