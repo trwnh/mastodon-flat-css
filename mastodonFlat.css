@@ -98,8 +98,7 @@ body,
 .account__action-bar-dropdown .icon-button.active,
 .account__action-bar-dropdown .icon-button:hover,
 .icon-button.inverted:active, .icon-button.inverted:focus, .icon-button.inverted:hover,
-.text-icon-button:active, .text-icon-button:focus, .text-icon-button:hover,
-.icon-button.active, .icon-button:active, .icon-button:focus, .icon-button:hover
+.text-icon-button:active, .text-icon-button:focus, .text-icon-button:hover
 {
     color: var(--accent)
 }
