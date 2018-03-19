@@ -37,6 +37,20 @@ DEFINE COLOR PALETTE
 --accent: #09f;
 }
 */
+/* flamingo */
+/*
+:root {
+    --bgPage: #111;
+    --bg: #222;
+    --bgHead: #333;
+    --text: #eee;
+    --textBold: #fff;
+    --textMuted: #888;
+    --textHead: var(--textBold);
+    --accent: #f09;
+} 
+*/
+
 /*----------
 TEXT STYLING
 ----------*/
