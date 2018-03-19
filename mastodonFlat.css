@@ -82,7 +82,7 @@ body,
 .icon-button:active, .icon-button:focus, .icon-button:hover,
 .icon-button.disabled, .status.status-direct .icon-button.disabled,
 .empty-column-indicator, .error-column, .column-subheading,
-.regeneration-indicator, .nothing-here
+.regeneration-indicator, .nothing-here, .account__disclaimer
 {
     color: var(--textMuted)
 }
