@@ -174,7 +174,6 @@ body, body.app-body, .status.status-direct,
 .dropdown-menu, .dropdown-menu__item a,
 .focusable:focus .detailed-status,
 .focusable:focus .detailed-status__action-bar,
-.status__content .status__content__spoiler-link:hover,
 .accounts-grid, .account__moved-note,
 .boost-modal__action-bar, .confirmation-modal__action-bar, .mute-modal__action-bar,
 .embed-modal .embed-modal__container .embed-modal__html {
@@ -204,6 +203,7 @@ body, body.app-body, .status.status-direct,
 .column-header>.column-header__back-button:hover,
 .react-toggle--checked .react-toggle-track,
 .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track,
+.status__content .status__content__spoiler-link:hover,
 .activity-stream .status.light .status__content a.status__content__spoiler-link:hover {
     background: var(--accent)
 }
