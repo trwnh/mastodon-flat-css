@@ -63,7 +63,8 @@ body,
 .search-results__section h5 span, .search-results__header,
 .column-link,
 .dropdown-menu, .dropdown-menu__item a,
-.status__content__spoiler-link:hover {
+.status__content__spoiler-link:hover,
+.actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal {
     color: var(--text)
 }
 
@@ -100,7 +101,8 @@ body,
 .icon-button.disabled, .status.status-direct .icon-button.disabled,
 .empty-column-indicator, .error-column, .column-subheading,
 .regeneration-indicator, .nothing-here, .account__disclaimer,
-.attachment-list__list a, .attachment-list.compact .fa {
+.attachment-list__list a, .attachment-list.compact .fa,
+.confirmation-modal__action-bar .confirmation-modal__cancel-button, .confirmation-modal__action-bar .mute-modal__cancel-button, .mute-modal__action-bar .confirmation-modal__cancel-button, .mute-modal__action-bar .mute-modal__cancel-button {
     color: var(--textMuted)
 }
 
@@ -153,7 +155,8 @@ BACKGROUNDS
 .getting-started, .column-link,
 .detailed-status, .detailed-status__action-bar,
 .activity-stream .entry, .activity-stream-tabs,
-.regeneration-indicator {
+.regeneration-indicator,
+.actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal {
     background: var(--bg);
 }
 
@@ -167,7 +170,8 @@ body, body.app-body, .status.status-direct,
 .focusable:focus .detailed-status,
 .focusable:focus .detailed-status__action-bar,
 .status__content .status__content__spoiler-link:hover,
-.accounts-grid, .account__moved-note {
+.accounts-grid, .account__moved-note,
+.boost-modal__action-bar, .confirmation-modal__action-bar, .mute-modal__action-bar {
     background: var(--bgPage)
 }
 
