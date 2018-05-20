@@ -6,7 +6,9 @@ MISC TWEAKS
 * {border: 0 !important}
 
 /* custom font */
-body {font-family: "Roboto Condensed"}
+body {
+    font-family: Roboto Condensed, Arial, sans-serif;
+}
 
 /*------------------
 DEFINE COLOR PALETTE
@@ -246,6 +248,19 @@ fix glowing elements when there are new toots to be fetched
 * various tweaks related to making account view
 * look a bit better
 */
+
+/* profile fields - styled separately because i'm not final on the transparent look */
+.account__header .account__header__fields dt,
+.account__header .account__header__fields dd
+{background: rgba(0,0,0,0.5);}
+
+.account__header .account__header__fields dd
+{color: var(--textBold);}
+.account__header .account__header__fields dt
+{color: var(--textMuted); font-weight: 700}
+
+/* fix weird tiling issue due to new "fields" feature in 2.4.0 */
+.account__header {background-size: cover !important;}
 
 /* recolors */
 .account__header {background: var(--bgHead)}
