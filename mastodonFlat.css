@@ -64,7 +64,8 @@ body,
 .column-link,
 .dropdown-menu, .dropdown-menu__item a,
 .status__content__spoiler-link:hover,
-.actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal {
+.actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal,
+.embed-modal, .error-modal, .onboarding-modal {
     color: var(--text)
 }
 
@@ -82,7 +83,8 @@ body,
 .activity-stream .status.light .display-name strong,
 .activity-stream-tabs a.active,
 .activity-stream .status.light .status__content,
-.regeneration-indicator__label strong {
+.regeneration-indicator__label strong,
+.embed-modal h4 {
     color: var(--textBold)
 }
 
@@ -102,7 +104,7 @@ body,
 .empty-column-indicator, .error-column, .column-subheading,
 .regeneration-indicator, .nothing-here, .account__disclaimer,
 .attachment-list__list a, .attachment-list.compact .fa,
-.confirmation-modal__action-bar .confirmation-modal__cancel-button, .confirmation-modal__action-bar .mute-modal__cancel-button, .mute-modal__action-bar .confirmation-modal__cancel-button, .mute-modal__action-bar .mute-modal__cancel-button {
+.confirmation-modal__action-bar .confirmation-modal__cancel-button, .confirmation-modal__action-bar .mute-modal__cancel-button, .mute-modal__action-bar .confirmation-modal__cancel-button, .mute-modal__action-bar .mute-modal__cancel-button, .embed-modal .embed-modal__container .embed-modal__html {
     color: var(--textMuted)
 }
 
@@ -131,7 +133,8 @@ body,
 .setting-text, .setting-meta__label, .setting-toggle__label,
 .setting-text:active, .setting-text:focus,
 .status__content__spoiler-link,
-.compose-form .compose-form__warning {
+.compose-form .compose-form__warning,
+.embed-modal .embed-modal__container .embed-modal__html:focus{
     color: var(--textHead)
 }
 
@@ -156,7 +159,8 @@ BACKGROUNDS
 .detailed-status, .detailed-status__action-bar,
 .activity-stream .entry, .activity-stream-tabs,
 .regeneration-indicator,
-.actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal {
+.actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal,
+.embed-modal, .error-modal, .onboarding-modal {
     background: var(--bg);
 }
 
@@ -171,7 +175,8 @@ body, body.app-body, .status.status-direct,
 .focusable:focus .detailed-status__action-bar,
 .status__content .status__content__spoiler-link:hover,
 .accounts-grid, .account__moved-note,
-.boost-modal__action-bar, .confirmation-modal__action-bar, .mute-modal__action-bar {
+.boost-modal__action-bar, .confirmation-modal__action-bar, .mute-modal__action-bar,
+.embed-modal .embed-modal__container .embed-modal__html {
     background: var(--bgPage)
 }
 
@@ -186,7 +191,8 @@ body, body.app-body, .status.status-direct,
 .status__content .status__content__spoiler-link,
 .list-editor h4,
 .keyboard-shortcuts kbd,
-.compose-form .compose-form__warning {
+.compose-form .compose-form__warning,
+.embed-modal .embed-modal__container .embed-modal__html:focus {
     background: var(--bgHead);
 }
 
