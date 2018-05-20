@@ -104,7 +104,8 @@ body,
 .empty-column-indicator, .error-column, .column-subheading,
 .regeneration-indicator, .nothing-here, .account__disclaimer,
 .attachment-list__list a, .attachment-list.compact .fa,
-.confirmation-modal__action-bar .confirmation-modal__cancel-button, .confirmation-modal__action-bar .mute-modal__cancel-button, .mute-modal__action-bar .confirmation-modal__cancel-button, .mute-modal__action-bar .mute-modal__cancel-button, .embed-modal .embed-modal__container .embed-modal__html {
+.confirmation-modal__action-bar .confirmation-modal__cancel-button, .confirmation-modal__action-bar .mute-modal__cancel-button, .mute-modal__action-bar .confirmation-modal__cancel-button, .mute-modal__action-bar .mute-modal__cancel-button, .embed-modal .embed-modal__container .embed-modal__html,
+.privacy-dropdown__option__content {
     color: var(--textMuted)
 }
 
@@ -161,7 +162,8 @@ BACKGROUNDS
 .activity-stream .entry, .activity-stream-tabs,
 .regeneration-indicator,
 .actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal,
-.embed-modal, .error-modal, .onboarding-modal {
+.embed-modal, .error-modal, .onboarding-modal,
+.privacy-dropdown.active .privacy-dropdown__value {
     background: var(--bg);
 }
 
