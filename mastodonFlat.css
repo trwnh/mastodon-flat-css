@@ -269,7 +269,7 @@ fix glowing elements when there are new toots to be fetched
 {background: rgba(0,0,0,0.5);}
 
 .account__header .account__header__fields dd
-{color: var(--textBold);}
+{color: white;}
 .account__header .account__header__fields dt
 {color: var(--textMuted); font-weight: 700}
 
