@@ -134,7 +134,8 @@ body,
 .setting-text:active, .setting-text:focus,
 .status__content__spoiler-link,
 .compose-form .compose-form__warning,
-.embed-modal .embed-modal__container .embed-modal__html:focus{
+.embed-modal .embed-modal__container .embed-modal__html:focus,
+.activity-stream .status.light .status__content a.status__content__spoiler-link {
     color: var(--textHead)
 }
 
@@ -192,7 +193,8 @@ body, body.app-body, .status.status-direct,
 .list-editor h4,
 .keyboard-shortcuts kbd,
 .compose-form .compose-form__warning,
-.embed-modal .embed-modal__container .embed-modal__html:focus {
+.embed-modal .embed-modal__container .embed-modal__html:focus,
+.activity-stream .status.light .status__content a.status__content__spoiler-link {
     background: var(--bgHead);
 }
 
@@ -201,7 +203,8 @@ body, body.app-body, .status.status-direct,
 .column-link:hover, .column-back-button:hover,
 .column-header>.column-header__back-button:hover,
 .react-toggle--checked .react-toggle-track,
-.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track,
+.activity-stream .status.light .status__content a.status__content__spoiler-link:hover {
     background: var(--accent)
 }
 
