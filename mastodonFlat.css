@@ -166,7 +166,7 @@ body, body.app-body, .status.status-direct,
 .focusable:focus .detailed-status,
 .focusable:focus .detailed-status__action-bar,
 .status__content .status__content__spoiler-link:hover,
-.accounts-grid
+.accounts-grid, .account__moved-note
 {
     background: var(--bgPage)
 }
