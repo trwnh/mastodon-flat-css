@@ -24,4 +24,5 @@ Alternatively, this theme may be installed from userstyles.org: https://userstyl
 This theme applies a few colors, but leaves the class names somewhat ungrouped so that you can experiment for yourself if you wish to modify this theme with your own color choices. This theme also removes borders for a flat look, as well as replaces the font on most text elements. Finally, it forces the full display name and account handle to be shown, and on separate lines.
 
 # Etc.
-Feel free to contact or follow me on Mastodon if you wish: [@trwnh@mastodon.social](http://mastodon.social/@trwnh)
+- Feel free to contact or follow me on Mastodon if you wish: [@trwnh@mastodon.social](http://mastodon.social/@trwnh)
+- If you'd like to support me, then you can offer patronage at [liberapay.com/trwnh](http://liberapay.com/trwnh) or a one-time donation at [cash.me/$trwnh](http://cash.me/$trwnh) or [paypal.me/trwnh](http://paypal.me/trwnh)
