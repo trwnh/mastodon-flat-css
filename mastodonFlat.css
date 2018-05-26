@@ -208,7 +208,8 @@ body, body.app-body, .status.status-direct,
 .react-toggle--checked .react-toggle-track,
 .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track,
 .status__content .status__content__spoiler-link:hover,
-.activity-stream .status.light .status__content a.status__content__spoiler-link:hover {
+.activity-stream .status.light .status__content a.status__content__spoiler-link:hover,
+.button:active, .button:focus, .button:hover {
     background: var(--accent)
 }
 
