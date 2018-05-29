@@ -105,8 +105,17 @@ body,
 .empty-column-indicator, .error-column, .column-subheading,
 .regeneration-indicator, .nothing-here, .account__disclaimer,
 .attachment-list__list a, .attachment-list.compact .fa,
-.confirmation-modal__action-bar .confirmation-modal__cancel-button, .confirmation-modal__action-bar .mute-modal__cancel-button, .mute-modal__action-bar .confirmation-modal__cancel-button, .mute-modal__action-bar .mute-modal__cancel-button, .embed-modal .embed-modal__container .embed-modal__html,
-.privacy-dropdown__option__content {
+.confirmation-modal__action-bar .confirmation-modal__cancel-button,
+.confirmation-modal__action-bar .mute-modal__cancel-button,
+.mute-modal__action-bar .confirmation-modal__cancel-button,
+.mute-modal__action-bar .mute-modal__cancel-button,
+.embed-modal .embed-modal__container .embed-modal__html,
+.privacy-dropdown__option__content,
+.activity-stream .status.light .display-name span,
+.activity-stream .pre-header,
+.activity-stream .status.light .status__header .status__meta .status__relative-time,
+.activity-stream .pre-header .status__display-name.muted strong
+{
     color: var(--textMuted)
 }
 
