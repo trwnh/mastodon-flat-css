@@ -54,6 +54,20 @@ DEFINE COLOR PALETTE
 } 
 */
 
+/* droid */
+/*
+:root {
+--bgPage: #111;
+--bg: #222;
+--bgHead: #333;
+--text: #ddd;
+--textBold: #fff;
+--textMuted: #777;
+--textHead: #fff;
+--accent: #a4c639
+} 
+*/
+
 /*----------
 TEXT STYLING
 ----------*/
