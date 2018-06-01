@@ -9,3 +9,7 @@ White columns with dark grey headers.
 # Flamingo
 Dark grey theme with magenta accents.
 ![Flamingo](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-flamingo.png)
+
+# Droid
+Dark grey theme with #a4c639 accents.
+![Droid](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-droid.png)
