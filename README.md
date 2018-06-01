@@ -8,7 +8,9 @@ See all palette demos in the screenshots/ subfolder.
 ## Clean Slate
 ![Clean Slate](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-cleanSlate.png)
 ## Flamingo
-![Flamingo](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-flamingo.png)
+![Flamingo](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-flamingo.png){:height="50%" width="50%"}
+## Droid
+![Droid](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-droid.png){:height="50%" width="50%"}
 
 # How to use
 1. Install a user-style manager, such as [Stylus](https://github.com/openstyles/stylus).
