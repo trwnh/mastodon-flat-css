@@ -291,6 +291,11 @@ release elephant friend from their confines
     z-index: -1
 }
 
+/*--------------------------------------------------------------------
+make "getting started" column height consistent with all other columns
+*/
+.getting-started__footer {margin-top: auto}
+
 /*----------------------------------------------------------
 make transparent images actually transparent in media modals
 */
