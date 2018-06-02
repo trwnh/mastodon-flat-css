@@ -8,6 +8,7 @@ See all palette demos in the screenshots/ subfolder.
 Midnight Blue | Droid
 --- | ---
 ![Midnight Blue](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-midnightBlue.png) | ![Droid](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-droid.png)
+
 Flamingo | Clean Slate
 --- | ---
 ![Flamingo](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-flamingo.png) | ![Clean Slate](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-cleanSlate.png)
