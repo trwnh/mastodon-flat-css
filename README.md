@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/mfc.png" width="100%"/> </div>
+![Preview](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/mfc.png)
 
 # mastodon-flat-css
 Mastodon Flat CSS (MFC) is a flat CSS theme for Mastodon, with varying palette options. Formerly known as Mastodon Midnight Blue.
