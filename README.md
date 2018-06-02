@@ -6,13 +6,9 @@ Mastodon Flat CSS (MFC) is a flat CSS theme for Mastodon, with varying palette o
 # Demo screenshots
 See all palette demos in the screenshots/ subfolder.
 
-Midnight Blue | Droid
+Midnight Blue | Droid | Clean Slate | Flamingo
 --- | ---
-![Midnight Blue](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-midnightBlue.png) | ![Droid](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-droid.png)
-
-Clean Slate | Flamingo
---- | ---
-![Clean Slate](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-cleanSlate.png) | ![Flamingo](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-flamingo.png)
+![Midnight Blue](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-midnightBlue.png) | ![Droid](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-droid.png) | ![Clean Slate](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-cleanSlate.png) | ![Flamingo](https://raw.githubusercontent.com/trwnh/mastodon-flat-css/master/screenshots/mfc-flamingo.png)
 
 # How to use
 1. Install a user-style manager, such as [Stylus](https://github.com/openstyles/stylus).
