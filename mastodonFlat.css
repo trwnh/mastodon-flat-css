@@ -80,7 +80,8 @@ body,
 .status__content__spoiler-link:hover,
 .actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal,
 .embed-modal, .error-modal, .onboarding-modal,
-.report-modal__comment .setting-text {
+.report-modal__comment .setting-text,
+.actions-modal ul li:not(:empty) a {
     color: var(--text)
 }
 
@@ -236,7 +237,8 @@ body, body.app-body, .status.status-direct,
 .status__content .status__content__spoiler-link:hover,
 .activity-stream .status.light .status__content a.status__content__spoiler-link:hover,
 .button:active, .button:focus, .button:hover,
-.dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item a:hover
+.dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item a:hover,
+.floating-action-button
 {
     background: var(--accent)
 }
