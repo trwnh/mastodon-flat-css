@@ -247,7 +247,15 @@ body, body.app-body, .status.status-direct,
     background: transparent
 }
 
-.account__section-headline a.active:after, .account__section-headline a.active:before, .community-timeline__section-headline a.active:after, .community-timeline__section-headline a.active:before, .public-timeline__section-headline a.active:after, .public-timeline__section-headline a.active:before {border-color: transparent transparent var(--bg)}
+.account__section-headline a.active:after,
+.account__section-headline a.active:before,
+.community-timeline__section-headline a.active:after,
+.community-timeline__section-headline a.active:before,
+.public-timeline__section-headline a.active:after,
+.public-timeline__section-headline a.active:before
+{
+    border-color: transparent transparent var(--bg)
+}
 
 /*----------------
 ADDITIONS AND MODS
