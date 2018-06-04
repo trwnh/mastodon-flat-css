@@ -147,7 +147,7 @@ body,
 .account__header__fields a,
 .getting-started p a, .getting-started a,
 .activity-stream .status.light .status__content a, .activity-stream-tabs a,
-.card .name small
+.card .name small, .report-modal__statuses .status__content a
 {
     color: var(--accent)
 }
@@ -224,7 +224,8 @@ body, body.app-body, .status.status-direct,
 .keyboard-shortcuts kbd,
 .compose-form .compose-form__warning,
 .embed-modal .embed-modal__container .embed-modal__html:focus,
-.activity-stream .status.light .status__content a.status__content__spoiler-link {
+.activity-stream .status.light .status__content a.status__content__spoiler-link,
+.button {
     background: var(--bgHead);
 }
 
