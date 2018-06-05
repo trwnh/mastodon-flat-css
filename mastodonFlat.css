@@ -100,7 +100,7 @@ body,
 .activity-stream-tabs a.active,
 .activity-stream .status.light .status__content,
 .regeneration-indicator__label strong,
-.embed-modal h4,
+.embed-modal h4, .status-card__title,
 .account__section-headline a.active, .community-timeline__section-headline a.active, .public-timeline__section-headline a.active {
     color: var(--textBold)
 }
@@ -126,7 +126,8 @@ body,
 .activity-stream .status.light .display-name span, .activity-stream .pre-header,
 .activity-stream .status.light .status__header .status__meta .status__relative-time,
 .activity-stream .pre-header .status__display-name.muted strong,
-.account__section-headline a, .community-timeline__section-headline a, .public-timeline__section-headline a
+.account__section-headline a, .community-timeline__section-headline a, .public-timeline__section-headline a,
+.status-card__host
 {
     color: var(--textMuted)
 }
@@ -206,7 +207,7 @@ body, body.app-body, .status.status-direct,
 .accounts-grid, .account__moved-note,
 .boost-modal__action-bar, .confirmation-modal__action-bar, .mute-modal__action-bar,
 .embed-modal .embed-modal__container .embed-modal__html,
-.report-modal__comment .setting-text,
+.report-modal__comment .setting-text, .status-card,
 .account__section-headline, .community-timeline__section-headline, .public-timeline__section-headline {
     background: var(--bgPage)
 }
@@ -225,7 +226,7 @@ body, body.app-body, .status.status-direct,
 .compose-form .compose-form__warning,
 .embed-modal .embed-modal__container .embed-modal__html:focus,
 .activity-stream .status.light .status__content a.status__content__spoiler-link,
-.button {
+.button, a.status-card:hover {
     background: var(--bgHead);
 }
 
