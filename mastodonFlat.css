@@ -81,7 +81,8 @@ body,
 .actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal,
 .embed-modal, .error-modal, .onboarding-modal,
 .report-modal__comment .setting-text,
-.actions-modal ul li:not(:empty) a {
+.actions-modal ul li:not(:empty) a,
+.upload-progress {
     color: var(--text)
 }
 
