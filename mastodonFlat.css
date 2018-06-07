@@ -82,7 +82,8 @@ body,
 .embed-modal, .error-modal, .onboarding-modal,
 .report-modal__comment .setting-text,
 .actions-modal ul li:not(:empty) a,
-.upload-progress {
+.upload-progress,
+.report-modal__comment .setting-toggle__label {
     color: var(--text)
 }
 
