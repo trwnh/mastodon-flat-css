@@ -186,8 +186,7 @@ BACKGROUNDS
 .compose-form .compose-form__modifiers,
 .privacy-dropdown__option,
 .column>.scrollable,
-.empty-column-indicator, .error-column,
-.getting-started, .column-link,
+.empty-column-indicator, .error-column, .column-link,
 .detailed-status, .detailed-status__action-bar,
 .activity-stream .entry, .activity-stream-tabs,
 .regeneration-indicator,
@@ -210,7 +209,8 @@ body, body.app-body, .status.status-direct,
 .boost-modal__action-bar, .confirmation-modal__action-bar, .mute-modal__action-bar,
 .embed-modal .embed-modal__container .embed-modal__html,
 .report-modal__comment .setting-text, .status-card,
-.account__section-headline, .community-timeline__section-headline, .public-timeline__section-headline {
+.account__section-headline, .community-timeline__section-headline, .public-timeline__section-headline,
+.flex-spacer, .getting-started, .getting-started__wrapper {
     background: var(--bgPage)
 }
 
