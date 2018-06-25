@@ -71,64 +71,109 @@ DEFINE COLOR PALETTE
 /*----------
 TEXT STYLING
 ----------*/
-body,
+body, .footer,
 .status__content__spoiler-link,
 .drawer__tab,
-.search-results__section h5 span, .search-results__header,
+.search-results__section h5 span,
+.search-results__header,
 .column-link,
-.dropdown-menu, .dropdown-menu__item a,
+.dropdown-menu,
+.dropdown-menu__item a,
 .status__content__spoiler-link:hover,
-.actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal,
-.embed-modal, .error-modal, .onboarding-modal,
+.actions-modal,
+.boost-modal,
+.confirmation-modal,
+.mute-modal,
+.report-modal,
+.embed-modal,
+.error-modal,
+.onboarding-modal,
 .report-modal__comment .setting-text,
 .actions-modal ul li:not(:empty) a,
 .upload-progress,
-.report-modal__comment .setting-toggle__label {
+.report-modal__comment .setting-toggle__label,
+.activity-stream .detailed-status.light .status-card__description
+{
     color: var(--text)
 }
 
-.account__display-name strong, .notification__display-name:hover,
-.status__display-name strong, .detailed-status__display-name strong,
+.account__display-name strong,
+.notification__display-name:hover,
+.status__display-name strong,
+.detailed-status__display-name strong,
 .account__section-headline a.active,
-.account__action-bar__tab strong, .navigation-bar strong,
+.account__action-bar__tab strong,
+.navigation-bar strong,
 .compose-form .autosuggest-textarea__textarea,
 .compose-form .spoiler-input__input,
 .compose-form .compose-form__modifiers,
 .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter,
-.reply-indicator__display-name, .reply-indicator__content,
-.privacy-dropdown__option, .privacy-dropdown__option strong,
+.reply-indicator__display-name,
+.reply-indicator__content,
+.privacy-dropdown__option,
+.privacy-dropdown__option strong,
 .search-popout em,
 .activity-stream .status.light .display-name strong,
 .activity-stream-tabs a.active,
 .activity-stream .status.light .status__content,
 .regeneration-indicator__label strong,
 .embed-modal h4, .status-card__title,
-.account__section-headline a.active, .community-timeline__section-headline a.active, .public-timeline__section-headline a.active {
+.account__section-headline a.active,
+.community-timeline__section-headline a.active,
+.public-timeline__section-headline a.active,
+.activity-stream .detailed-status.light .status-card__title
+{
     color: var(--textBold)
 }
 
-.notification__message, .status__prepend, .status__relative-time,
-.muted .status__content a, .muted .status__content p,
+.notification__message,
+.status__prepend,
+.status__relative-time,
+.muted .status__content a,
+.muted .status__content p,
 .muted .status__display-name strong,
 .status__prepend .status__display-name strong,
-.status__display-name, .detailed-status__display-name,
-.navigation-bar, .getting-started p,
-.search__input, .search__icon .fa, .search-results__hashtag,
-.search-popout, .search-popout h4,
-.account .account__display-name, .account__section-headline a,
-.account__action-bar__tab > span, .account__action-bar-dropdown .icon-button,
-.icon-button.inverted, .text-icon-button, .icon-button,
-.icon-button:active, .icon-button:focus, .icon-button:hover,
-.icon-button.disabled, .status.status-direct .icon-button.disabled,
-.empty-column-indicator, .error-column, .column-subheading,
-.regeneration-indicator, .nothing-here, .account__disclaimer,
-.attachment-list__list a, .attachment-list.compact .fa,
-.confirmation-modal__action-bar .confirmation-modal__cancel-button, .confirmation-modal__action-bar .mute-modal__cancel-button, .mute-modal__action-bar .confirmation-modal__cancel-button, .mute-modal__action-bar .mute-modal__cancel-button, .embed-modal .embed-modal__container .embed-modal__html,
+.status__display-name,
+.detailed-status__display-name,
+.navigation-bar,
+.getting-started p,
+.search__input,
+.search__icon .fa,
+.search-results__hashtag,
+.search-popout,
+.search-popout h4,
+.account .account__display-name,
+.account__section-headline a,
+.account__action-bar__tab > span,
+.account__action-bar-dropdown .icon-button,
+.icon-button.inverted,
+.text-icon-button,
+.icon-button,
+.icon-button:active,
+.icon-button:focus,
+.icon-button:hover,
+.icon-button.disabled,
+.status.status-direct .icon-button.disabled,
+.empty-column-indicator,
+.error-column,
+.column-subheading,
+.regeneration-indicator,
+.nothing-here,
+.account__disclaimer,
+.attachment-list__list a,
+.attachment-list.compact .fa,
+.confirmation-modal__action-bar .confirmation-modal__cancel-button,
+.confirmation-modal__action-bar .mute-modal__cancel-button,
+.mute-modal__action-bar .confirmation-modal__cancel-button,
+.mute-modal__action-bar .mute-modal__cancel-button,
+.embed-modal .embed-modal__container .embed-modal__html,
 .privacy-dropdown__option__content,
 .activity-stream .status.light .display-name span, .activity-stream .pre-header,
 .activity-stream .status.light .status__header .status__meta .status__relative-time,
 .activity-stream .pre-header .status__display-name.muted strong,
-.account__section-headline a, .community-timeline__section-headline a, .public-timeline__section-headline a,
+.account__section-headline a,
+.community-timeline__section-headline a,
+.public-timeline__section-headline a,
 .status-card__host
 {
     color: var(--textMuted)
@@ -144,33 +189,49 @@ body,
 .column-header.active .column-header__icon,
 .account__action-bar-dropdown .icon-button.active,
 .account__action-bar-dropdown .icon-button:hover,
-.icon-button.inverted:active, .icon-button.inverted:focus, .icon-button.inverted:hover,
-.text-icon-button:active, .text-icon-button:focus, .text-icon-button:hover,
+.icon-button.inverted:active,
+.icon-button.inverted:focus,
+.icon-button.inverted:hover,
+.text-icon-button:active,
+.text-icon-button:focus,
+.text-icon-button:hover,
 .compose-form .compose-form__warning a,
 .account__header__fields a,
-.getting-started p a, .getting-started a,
-.activity-stream .status.light .status__content a, .activity-stream-tabs a,
+.getting-started p a,
+.getting-started a,
+.activity-stream .status.light .status__content a,
+.activity-stream-tabs a,
 .card .name small, .report-modal__statuses .status__content a
 {
     color: var(--accent)
 }
 
-.column-header, .column-back-button,
-.column-header__button, .column-header__button:hover,
-.column-header__button.active, .column-header__button.active:hover,
-.column-header__collapsible, .column-header__back-button,
+.column-header,
+.column-back-button,
+.column-header__button,
+.column-header__button:hover,
+.column-header__button.active,
+.column-header__button.active:hover,
+.column-header__collapsible,
+.column-header__back-button,
 .column-header>.column-header__back-button,
 .column-settings__section,
-.setting-text, .setting-meta__label, .setting-toggle__label,
-.setting-text:active, .setting-text:focus,
+.setting-text, .setting-meta__label,
+.setting-toggle__label,
+.setting-text:active,
+.setting-text:focus,
 .status__content__spoiler-link,
 .compose-form .compose-form__warning,
 .embed-modal .embed-modal__container .embed-modal__html:focus,
-.activity-stream .status.light .status__content a.status__content__spoiler-link {
+.activity-stream .status.light .status__content a.status__content__spoiler-link,
+.activity-stream .detailed-status.light .status-card:hover .status-card__description,
+.activity-stream .detailed-status.light .status-card:hover .status-card__title
+{
     color: var(--textHead)
 }
 
-.icon-button.disabled:hover {
+.icon-button.disabled:hover
+{
     color: var(--bg)
 }
 
@@ -178,39 +239,69 @@ body,
 BACKGROUNDS
 ---------*/
 
-.search__input, .search__input:focus,
-.search-popout, .search-results__section h5 span, .search-results__header,
-.drawer__inner.darker, .drawer__header a:hover,
+.search__input,
+.search__input:focus,
+.search-popout,
+.search-results__section h5 span,
+.search-results__header,
+.drawer__inner.darker,
+.drawer__header a:hover,
 .compose-form .autosuggest-textarea__textarea,
 .compose-form .spoiler-input__input,
 .compose-form .compose-form__modifiers,
 .privacy-dropdown__option,
 .column>.scrollable,
-.empty-column-indicator, .error-column, .column-link,
-.detailed-status, .detailed-status__action-bar,
-.activity-stream .entry, .activity-stream-tabs,
+.empty-column-indicator,
+.error-column,
+.column-link,
+.detailed-status,
+.detailed-status__action-bar,
+.activity-stream .entry,
+.activity-stream-tabs,
 .regeneration-indicator,
-.actions-modal, .boost-modal, .confirmation-modal, .mute-modal, .report-modal,
-.embed-modal, .error-modal, .onboarding-modal,
-.privacy-dropdown.active .privacy-dropdown__value, .account__action-bar {
+.actions-modal,
+.boost-modal,
+.confirmation-modal,
+.mute-modal,
+.report-modal,
+.embed-modal,
+.error-modal,
+.onboarding-modal,
+.privacy-dropdown.active .privacy-dropdown__value, .account__action-bar,
+.activity-stream .detailed-status.light .status-card__image
+{
     background: var(--bg);
 }
 
-body, body.app-body, .status.status-direct,
-.drawer__header, .tabs-bar,
+body, body.app-body,
+.status.status-direct,
+.drawer__header,
+.tabs-bar,
 .drawer__inner.backdrop,
 .compose-form .compose-form__buttons-wrapper,
-.reply-indicator, .list-editor,
-.column-subheading, .focusable:focus,
-.dropdown-menu, .dropdown-menu__item a,
+.reply-indicator,
+.list-editor,
+.column-subheading,
+.focusable:focus,
+.dropdown-menu,
+.dropdown-menu__item a,
 .focusable:focus .detailed-status,
 .focusable:focus .detailed-status__action-bar,
-.accounts-grid, .account__moved-note,
-.boost-modal__action-bar, .confirmation-modal__action-bar, .mute-modal__action-bar,
+.accounts-grid,
+.account__moved-note,
+.boost-modal__action-bar,
+.confirmation-modal__action-bar,
+.mute-modal__action-bar,
 .embed-modal .embed-modal__container .embed-modal__html,
-.report-modal__comment .setting-text, .status-card,
-.account__section-headline, .community-timeline__section-headline, .public-timeline__section-headline,
-.flex-spacer, .getting-started, .getting-started__wrapper {
+.report-modal__comment .setting-text,
+.status-card,
+.account__section-headline,
+.community-timeline__section-headline,
+.public-timeline__section-headline,
+.flex-spacer,
+.getting-started,
+.getting-started__wrapper
+{
     background: var(--bgPage)
 }
 
@@ -228,26 +319,37 @@ body, body.app-body, .status.status-direct,
 .compose-form .compose-form__warning,
 .embed-modal .embed-modal__container .embed-modal__html:focus,
 .activity-stream .status.light .status__content a.status__content__spoiler-link,
-.button, a.status-card:hover {
+.button,
+a.status-card:hover,
+.activity-stream .detailed-status.light .status-card:hover
+{
     background: var(--bgHead);
 }
 
 .compose-form__publish .button,
-.column-header__button:hover, .column-header__button.active:hover,
-.column-link:hover, .column-back-button:hover,
+.column-header__button:hover,
+.column-header__button.active:hover,
+.column-link:hover,
+.column-back-button:hover,
 .column-header>.column-header__back-button:hover,
 .react-toggle--checked .react-toggle-track,
 .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track,
 .status__content .status__content__spoiler-link:hover,
 .activity-stream .status.light .status__content a.status__content__spoiler-link:hover,
-.button:active, .button:focus, .button:hover,
-.dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item a:hover,
+.button:active,
+.button:focus,
+.button:hover,
+.dropdown-menu__item a:active,
+.dropdown-menu__item a:focus,
+.dropdown-menu__item a:hover,
 .floating-action-button
 {
     background: var(--accent)
 }
 
-.ui, .drawer__inner, .drawer__inner__mastodon {
+.ui, .drawer__inner,
+.drawer__inner__mastodon
+{
     background: transparent
 }
 
@@ -358,6 +460,13 @@ fix glowing elements when there are new toots to be fetched
 
 /* account pages bio overlay */
 .card .card__bio, .account__header__fields, .account__header__fields dt {background: rgba(0,0,0,0.5)}
+
+/* make footer logo visible against light bg */
+.footer .powered-by a {
+    filter: drop-shadow(
+            0px 0px 2px rgba(0,0,0,0.6)
+    )
+}
 
 
 /* -------------------------------
