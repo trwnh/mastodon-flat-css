@@ -427,7 +427,7 @@ fix glowing elements when there are new toots to be fetched
 .account__header .account__header__fields dd
 {color: white;}
 .account__header .account__header__fields dt
-{color: var(--textMuted); font-weight: 700}
+{color: white; font-weight: 700}
 
 /* fix weird tiling issue due to new "fields" feature in 2.4.0 */
 .account__header {background-size: cover !important;}
