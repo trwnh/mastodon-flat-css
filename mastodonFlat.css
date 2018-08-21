@@ -94,6 +94,7 @@ body, .footer,
 .actions-modal ul li:not(:empty) a,
 .upload-progress,
 .report-modal__comment .setting-toggle__label,
+.report-modal__statuses .status__content p,
 .activity-stream .detailed-status.light .status-card__description
 {
     color: var(--text)
