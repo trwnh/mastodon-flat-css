@@ -97,7 +97,9 @@ body, .footer,
 .report-modal__comment .setting-toggle__label,
 .activity-stream .detailed-status.light .status-card__description,
 .account__header__fields dd,
-.public-layout .public-account-bio .account__header__content
+.public-layout .public-account-bio .account__header__content,
+.public-layout .public-account-header__tabs__tabs .counter,
+.public-layout .public-account-header__tabs__tabs .counter .counter-number
 {
     color: var(--text)
 }
@@ -283,7 +285,8 @@ BACKGROUNDS
 .privacy-dropdown.active .privacy-dropdown__value, .account__action-bar,
 .activity-stream .detailed-status.light .status-card__image,
 .public-layout .public-account-bio,
-.public-layout .public-account-header__bar:before, .card__bar
+.public-layout .public-account-header__bar:before, .card__bar,
+.nothing-here
 {
     background: var(--bg);
 }
@@ -364,13 +367,15 @@ a.status-card:hover,
 .floating-action-button,
 .public-layout .header .nav-button:active,
 .public-layout .header .nav-button:focus,
-.public-layout .header .nav-button:hover
+.public-layout .header .nav-button:hover,
+.button.logo-button
 {
     background: var(--accent)
 }
 
 .ui, .drawer__inner,
-.drawer__inner__mastodon
+.drawer__inner__mastodon,
+.account__header__fields dt
 {
     background: transparent
 }
@@ -384,6 +389,11 @@ a.status-card:hover,
 {
     border-color: transparent transparent var(--bg)
 }
+
+.public-layout .header {box-shadow: none;}
+.public-layout .header .brand {filter: drop-shadow(0px 0px 2px var(--text))}
+.public-layout .public-account-header__tabs__tabs .counter:after
+{border-bottom: 4px solid var(--bgHead)}
 
 /*----------------
 ADDITIONS AND MODS
@@ -450,6 +460,8 @@ fix glowing elements when there are new toots to be fetched
 {color: white;}
 .account__header .account__header__fields dt
 {color: white; font-weight: 700}
+
+.account__header__fields dt {font-weight: 700;}
 
 /* fix weird tiling issue due to new "fields" feature in 2.4.0 */
 .account__header {background-size: cover !important;}
