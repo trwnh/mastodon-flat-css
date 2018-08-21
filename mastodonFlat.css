@@ -480,9 +480,6 @@ fix glowing elements when there are new toots to be fetched
 /* account page tab underline */
 .card .counter.active:after {border-bottom: 4px solid var(--accent)}
 
-/* account pages bio overlay */
-.card .card__bio, .account__header__fields, .account__header__fields dt {background: rgba(0,0,0,0.5)}
-
 /* make footer logo visible against light bg */
 .footer .powered-by a {
     filter: drop-shadow(
