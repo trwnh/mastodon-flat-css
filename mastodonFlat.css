@@ -227,7 +227,8 @@ body, .footer,
 .embed-modal .embed-modal__container .embed-modal__html:focus,
 .activity-stream .status.light .status__content a.status__content__spoiler-link,
 .activity-stream .detailed-status.light .status-card:hover .status-card__description,
-.activity-stream .detailed-status.light .status-card:hover .status-card__title
+.activity-stream .detailed-status.light .status-card:hover .status-card__title,
+.keyboard-shortcuts kbd
 {
     color: var(--textHead)
 }
