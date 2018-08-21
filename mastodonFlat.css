@@ -91,11 +91,13 @@ body, .footer,
 .error-modal,
 .onboarding-modal,
 .report-modal__comment .setting-text,
+.report-modal__statuses .status__content p,
 .actions-modal ul li:not(:empty) a,
 .upload-progress,
 .report-modal__comment .setting-toggle__label,
-.report-modal__statuses .status__content p,
-.activity-stream .detailed-status.light .status-card__description
+.activity-stream .detailed-status.light .status-card__description,
+.account__header__fields dd,
+.public-layout .public-account-bio .account__header__content
 {
     color: var(--text)
 }
@@ -124,7 +126,9 @@ body, .footer,
 .account__section-headline a.active,
 .community-timeline__section-headline a.active,
 .public-timeline__section-headline a.active,
-.activity-stream .detailed-status.light .status-card__title
+.activity-stream .detailed-status.light .status-card__title,
+.endorsements-widget h4,
+.account__header__fields dt
 {
     color: var(--textBold)
 }
@@ -177,7 +181,11 @@ body, .footer,
 .account__section-headline a,
 .community-timeline__section-headline a,
 .public-timeline__section-headline a,
-.status-card__host
+.status-card__host,
+.detailed-status__meta,
+.load-more,
+.hero-widget__text,
+.public-layout .public-account-bio .roles, .public-layout .public-account-bio__extra
 {
     color: var(--textMuted)
 }
@@ -229,7 +237,8 @@ body, .footer,
 .activity-stream .status.light .status__content a.status__content__spoiler-link,
 .activity-stream .detailed-status.light .status-card:hover .status-card__description,
 .activity-stream .detailed-status.light .status-card:hover .status-card__title,
-.keyboard-shortcuts kbd
+.keyboard-shortcuts kbd,
+.public-layout .header .nav-link
 {
     color: var(--textHead)
 }
@@ -272,7 +281,9 @@ BACKGROUNDS
 .error-modal,
 .onboarding-modal,
 .privacy-dropdown.active .privacy-dropdown__value, .account__action-bar,
-.activity-stream .detailed-status.light .status-card__image
+.activity-stream .detailed-status.light .status-card__image,
+.public-layout .public-account-bio,
+.public-layout .public-account-header__bar:before, .card__bar
 {
     background: var(--bg);
 }
@@ -304,7 +315,10 @@ body, body.app-body,
 .public-timeline__section-headline,
 .flex-spacer,
 .getting-started,
-.getting-started__wrapper
+.getting-started__wrapper,
+.load-more:hover,
+.hero-widget__text,
+.public-layout .header
 {
     background: var(--bgPage)
 }
@@ -325,7 +339,8 @@ body, body.app-body,
 .activity-stream .status.light .status__content a.status__content__spoiler-link,
 .button,
 a.status-card:hover,
-.activity-stream .detailed-status.light .status-card:hover
+.activity-stream .detailed-status.light .status-card:hover,
+.public-layout .header .nav-button
 {
     background: var(--bgHead);
 }
@@ -346,7 +361,10 @@ a.status-card:hover,
 .dropdown-menu__item a:active,
 .dropdown-menu__item a:focus,
 .dropdown-menu__item a:hover,
-.floating-action-button
+.floating-action-button,
+.public-layout .header .nav-button:active,
+.public-layout .header .nav-button:focus,
+.public-layout .header .nav-button:hover
 {
     background: var(--accent)
 }
