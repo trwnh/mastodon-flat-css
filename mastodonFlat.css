@@ -72,6 +72,8 @@ DEFINE COLOR PALETTE
 TEXT STYLING
 ----------*/
 body, .footer,
+.reply-indicator__content,
+.status__content,
 .status__content__spoiler-link,
 .drawer__tab,
 .search-results__section h5 span,
