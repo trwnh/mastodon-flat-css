@@ -98,7 +98,9 @@ body, .footer,
 .account__header__fields dd,
 .public-layout .public-account-bio .account__header__content,
 .public-layout .public-account-header__tabs__tabs .counter,
-.public-layout .public-account-header__tabs__tabs .counter .counter-number
+.public-layout .public-account-header__tabs__tabs .counter .counter-number,
+.tabs-bar__link,
+.landing-page #mastodon-timeline p
 {
     color: var(--text)
 }
@@ -219,7 +221,8 @@ body, .footer,
 .getting-started a,
 .activity-stream .status.light .status__content a,
 .activity-stream-tabs a,
-.card .name small, .report-modal__statuses .status__content a
+.card .name small, .report-modal__statuses .status__content a,
+.landing-page #mastodon-timeline p a
 {
     color: var(--accent)
 }
@@ -327,7 +330,8 @@ body, body.app-body,
 .getting-started,
 .getting-started__wrapper,
 .load-more:hover,
-.public-layout .header
+.public-layout .header,
+.landing-page #mastodon-timeline
 {
     background: var(--bgPage)
 }
@@ -374,7 +378,8 @@ a.status-card:hover,
 .public-layout .header .nav-button:active,
 .public-layout .header .nav-button:focus,
 .public-layout .header .nav-button:hover,
-.button.logo-button
+.button.logo-button,
+.public-layout .header .brand:active, .public-layout .header .brand:focus, .public-layout .header .brand:hover
 {
     background: var(--accent)
 }
@@ -397,7 +402,7 @@ a.status-card:hover,
 }
 
 .public-layout .header {box-shadow: none;}
-.public-layout .header .brand {filter: drop-shadow(0px 0px 2px var(--text))}
+.public-layout .header .brand {filter: drop-shadow(0px 0px 2px rgba(0,0,0,0.6))}
 .public-layout .public-account-header__tabs__tabs .counter:after
 {border-bottom: 4px solid var(--bgHead)}
 
@@ -427,6 +432,7 @@ FIXES
 
 .public-layout .footer .brand svg path {fill: var(--textMuted)}
 .public-layout .footer .brand:hover svg path {fill: var(--textBold)}
+.column {height: 100%}
 
 /*----------------
 ADDITIONS AND MODS
