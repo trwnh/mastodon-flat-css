@@ -74,7 +74,6 @@ TEXT STYLING
 body, .footer,
 .reply-indicator__content,
 .status__content,
-.status__content__spoiler-link,
 .drawer__tab,
 .search-results__section h5 span,
 .search-results__header,
@@ -234,6 +233,7 @@ body, .footer,
 .setting-text:active,
 .setting-text:focus,
 .status__content__spoiler-link,
+.status__content a.status__content__spoiler-link,
 .compose-form .compose-form__warning,
 .embed-modal .embed-modal__container .embed-modal__html:focus,
 .activity-stream .status.light .status__content a.status__content__spoiler-link,
@@ -394,6 +394,21 @@ a.status-card:hover,
 .public-layout .header .brand {filter: drop-shadow(0px 0px 2px var(--text))}
 .public-layout .public-account-header__tabs__tabs .counter:after
 {border-bottom: 4px solid var(--bgHead)}
+
+/*---
+FIXES
+---*/
+@media screen and (max-width: 600px) {
+.public-layout .public-account-header__bar
+    {background: var(--bg)}
+.public-layout .public-account-header__tabs__name h1,
+.public-layout .public-account-header__extra__links a strong
+    {color: var(--textBold)}
+.public-layout .public-account-header__extra__links a,
+.public-layout .public-account-header__tabs__name h1 small
+    {color: var(--textMuted)}
+
+}
 
 /*----------------
 ADDITIONS AND MODS
