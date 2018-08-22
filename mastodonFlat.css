@@ -432,7 +432,6 @@ FIXES
 
 .public-layout .footer .brand svg path {fill: var(--textMuted)}
 .public-layout .footer .brand:hover svg path {fill: var(--textBold)}
-.column {height: 100%}
 
 /*----------------
 ADDITIONS AND MODS
