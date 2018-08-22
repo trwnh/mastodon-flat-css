@@ -129,7 +129,9 @@ body, .footer,
 .public-timeline__section-headline a.active,
 .activity-stream .detailed-status.light .status-card__title,
 .endorsements-widget h4,
-.account__header__fields dt
+.account__header__fields dt,
+.card__bar .display-name strong,
+.pagination .current, .pagination .gap, .pagination .newer, .pagination .older, .pagination .page, .pagination a
 {
     color: var(--textBold)
 }
@@ -186,7 +188,11 @@ body, .footer,
 .detailed-status__meta,
 .load-more,
 .hero-widget__text,
-.public-layout .public-account-bio .roles, .public-layout .public-account-bio__extra
+.public-layout .public-account-bio .roles, .public-layout .public-account-bio__extra,
+.public-layout .footer ul a,
+.public-layout .footer .grid .column-2 h4 a,
+.public-layout .footer h4,
+.card__bar .display-name span
 {
     color: var(--textMuted)
 }
@@ -286,7 +292,8 @@ BACKGROUNDS
 .activity-stream .detailed-status.light .status-card__image,
 .public-layout .public-account-bio,
 .public-layout .public-account-header__bar:before, .card__bar,
-.nothing-here
+.nothing-here,
+.hero-widget__text
 {
     background: var(--bg);
 }
@@ -320,7 +327,6 @@ body, body.app-body,
 .getting-started,
 .getting-started__wrapper,
 .load-more:hover,
-.hero-widget__text,
 .public-layout .header
 {
     background: var(--bgPage)
@@ -398,17 +404,29 @@ a.status-card:hover,
 /*---
 FIXES
 ---*/
-@media screen and (max-width: 600px) {
-.public-layout .public-account-header__bar
-    {background: var(--bg)}
-.public-layout .public-account-header__tabs__name h1,
-.public-layout .public-account-header__extra__links a strong
-    {color: var(--textBold)}
-.public-layout .public-account-header__extra__links a,
-.public-layout .public-account-header__tabs__name h1 small
-    {color: var(--textMuted)}
 
+@media screen and (max-width: 600px) {
+    .public-layout .public-account-header__bar
+        {background: var(--bg)}
+    .public-layout .public-account-header__tabs__name h1,
+    .public-layout .public-account-header__extra__links a strong
+        {color: var(--textBold)}
+    .public-layout .public-account-header__extra__links a,
+    .public-layout .public-account-header__tabs__name h1 small
+        {color: var(--textMuted)}
 }
+
+@media screen and (max-width: 415px) {
+    .public-layout .card-grid>div .card__bar
+        {background: var(--bg)}
+    .public-layout .card-grid>div .card__bar:active,
+    .public-layout .card-grid>div .card__bar:focus,
+    .public-layout .card-grid>div .card__bar:hover
+        {background: var(--bgPage)}
+}
+
+.public-layout .footer .brand svg path {fill: var(--textMuted)}
+.public-layout .footer .brand:hover svg path {fill: var(--textBold)}
 
 /*----------------
 ADDITIONS AND MODS
