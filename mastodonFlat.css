@@ -19,15 +19,15 @@ DEFINE COLOR PALETTE
 --bg: #123;
 --text: #e0e8f0;
 --textBold: #fff;
-
+--textMuted: #808890;
+    
 --bgPage: #051119;
 --textPage: var(--text);
 --textPageBold: var(--textBold);
+--textPageMuted: var(--textMuted);
 
 --bgHead: #357;
 --textHead: var(--textBold);
-
---textMuted: #808890;
 --accent: #09f;
 } 
 
@@ -37,15 +37,15 @@ DEFINE COLOR PALETTE
 --bg: #fff;
 --text: #123;
 --textBold: #000;
+--textMuted: #666;
 
 --bgPage: #ddd;
 --textPage: var(--text);
 --textPageBold: var(--textBold);
+--textPageMuted: var(--textMuted);
 
 --bgHead: #333;
 --textHead: #fff;
-
---textMuted: #666;
 --accent: #09f;
 }
 */
@@ -56,15 +56,15 @@ DEFINE COLOR PALETTE
 --bg: #222;
 --text: #ddd;
 --textBold: #fff;
+--textMuted: #777;
 
 --bgPage: #111;
 --textPage: var(--text);
 --textPageBold: var(--textBold);
+--textPageMuted: var(--textMuted);
 
 --bgHead: #333;
 --textHead: var(--textBold);
-
---textMuted: #777;
 --accent: #f09;
 } 
 */
@@ -75,34 +75,17 @@ DEFINE COLOR PALETTE
 --bg: #222;
 --text: #ddd;
 --textBold: #fff;
+--textMuted: #777;
 
 --bgPage: #111;
 --textPage: var(--text);
 --textPageBold: var(--textBold);
+--textPageMuted: var(--textMuted);
 
 --bgHead: #333;
 --textHead: var(--textBold);
-
---textMuted: #777;
 --accent: #a4c639;
 } 
-*/
-
-/* custom (for userstyles.org)
-/* :root {
-/* --bg: /*[[bg]]*/;
-/* --text: /*[[text]]*/;
-/* --textBold: /*[[textBold]]*/;
-/* --bgPage: /*[[bgPage]]*/;
-/* --textPage: /*[[textPage]]*/;
-/* --textPageBold: /*[[textPageBold]]*/;
-/* 
-/* --bgHead: /*[[bgHead]]*/;
-/* --textHead: /*[[textHead]]*/;
-/* 
-/* --textMuted: /*[[textMuted]]*/;
-/* --accent: /*[[accent]]*/;
-/* }
 */
 
 /*------------
