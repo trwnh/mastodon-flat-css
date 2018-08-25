@@ -105,9 +105,9 @@ DEFINE COLOR PALETTE
 /* }
 */
 
-/*-------------
-PRIMARY STYLING
--------------*/
+/*------------
+COLUMN STYLING
+------------*/
 
 .search__input,
 .search__input:focus,
@@ -276,9 +276,9 @@ body, .footer,
     color: var(--textMuted)
 }
 
-/*---------------
-SECONDARY STYLING
----------------*/
+/*----------
+PAGE STYLING
+----------*/
 
 body, body.app-body,
 .status.status-direct,
@@ -315,9 +315,9 @@ body, body.app-body,
     background: var(--bgPage)
 }
 
-/*---------------
-AUXILIARY STYLING
----------------*/
+/*------------
+ACCENT STYLING
+------------*/
 
 .column-header,
 .column-header__button,
