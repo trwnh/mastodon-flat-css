@@ -16,26 +16,36 @@ DEFINE COLOR PALETTE
 
 /* midnight blue */
 :root {
---bgPage: #051119;
 --bg: #123;
---bgHead: #357;
 --text: #e0e8f0;
 --textBold: #fff;
---textMuted: #808890;
+
+--bgPage: #051119;
+--textPage: var(--text);
+--textPageBold: var(--textBold);
+
+--bgHead: #357;
 --textHead: var(--textBold);
+
+--textMuted: #808890;
 --accent: #09f;
 } 
 
 /* clean slate */
 /*
 :root {
---bgPage: #ddd;
 --bg: #fff;
---bgHead: #333;
 --text: #123;
 --textBold: #000;
---textMuted: #666;
+
+--bgPage: #ddd;
+--textPage: var(--text);
+--textPageBold: var(--textBold);
+
+--bgHead: #333;
 --textHead: #fff;
+
+--textMuted: #666;
 --accent: #09f;
 }
 */
@@ -43,29 +53,56 @@ DEFINE COLOR PALETTE
 /* flamingo */
 /*
 :root {
-    --bgPage: #111;
-    --bg: #222;
-    --bgHead: #333;
-    --text: #eee;
-    --textBold: #fff;
-    --textMuted: #888;
-    --textHead: var(--textBold);
-    --accent: #f09;
+--bg: #222;
+--text: #ddd;
+--textBold: #fff;
+
+--bgPage: #111;
+--textPage: var(--text);
+--textPageBold: var(--textBold);
+
+--bgHead: #333;
+--textHead: var(--textBold);
+
+--textMuted: #777;
+--accent: #f09;
 } 
 */
 
 /* droid */
 /*
 :root {
---bgPage: #111;
 --bg: #222;
---bgHead: #333;
 --text: #ddd;
 --textBold: #fff;
+
+--bgPage: #111;
+--textPage: var(--text);
+--textPageBold: var(--textBold);
+
+--bgHead: #333;
+--textHead: var(--textBold);
+
 --textMuted: #777;
---textHead: #fff;
---accent: #a4c639
+--accent: #a4c639;
 } 
+*/
+
+/* custom (for userstyles.org)
+/* :root {
+/* --bg: /*[[bg]]*/;
+/* --text: /*[[text]]*/;
+/* --textBold: /*[[textBold]]*/;
+/* --bgPage: /*[[bgPage]]*/;
+/* --textPage: /*[[textPage]]*/;
+/* --textPageBold: /*[[textPageBold]]*/;
+/* 
+/* --bgHead: /*[[bgHead]]*/;
+/* --textHead: /*[[textHead]]*/;
+/* 
+/* --textMuted: /*[[textMuted]]*/;
+/* --accent: /*[[accent]]*/;
+/* }
 */
 
 /*-------------
