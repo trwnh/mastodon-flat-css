@@ -100,7 +100,8 @@ body, .footer,
 .public-layout .public-account-header__tabs__tabs .counter,
 .public-layout .public-account-header__tabs__tabs .counter .counter-number,
 .tabs-bar__link,
-.landing-page #mastodon-timeline p
+.landing-page #mastodon-timeline p,
+.domain .domain__domain-name
 {
     color: var(--text)
 }
@@ -489,20 +490,12 @@ fix glowing elements when there are new toots to be fetched
 * look a bit better
 */
 
-/* profile fields - styled separately because i'm not final on the transparent look */
 .account__header .account__header__fields dt,
 .account__header .account__header__fields dd
-{background: rgba(0,0,0,0.5);}
+{background: var(--bg); color: var(--text)}
 
-.account__header .account__header__fields dd
-{color: white;}
 .account__header .account__header__fields dt
-{color: white; font-weight: 700}
-
-.account__header__fields dt {font-weight: 700;}
-
-/* fix weird tiling issue due to new "fields" feature in 2.4.0 */
-.account__header {background-size: cover !important;}
+{font-weight: 700}
 
 /* profile bio theming */
 .account__header {background: var(--bgHead)}
