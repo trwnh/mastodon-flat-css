@@ -68,9 +68,48 @@ DEFINE COLOR PALETTE
 } 
 */
 
-/*----------
-TEXT STYLING
-----------*/
+/*-------------
+PRIMARY STYLING
+-------------*/
+
+.search__input,
+.search__input:focus,
+.search-popout,
+.search-results__section h5 span,
+.search-results__header,
+.drawer__inner.darker,
+.drawer__header a:hover,
+.compose-form .autosuggest-textarea__textarea,
+.compose-form .spoiler-input__input,
+.compose-form .compose-form__modifiers,
+.privacy-dropdown__option,
+.column>.scrollable,
+.empty-column-indicator,
+.error-column,
+.column-link,
+.detailed-status,
+.detailed-status__action-bar,
+.activity-stream .entry,
+.activity-stream-tabs,
+.regeneration-indicator,
+.actions-modal,
+.boost-modal,
+.confirmation-modal,
+.mute-modal,
+.report-modal,
+.embed-modal,
+.error-modal,
+.onboarding-modal,
+.privacy-dropdown.active .privacy-dropdown__value, .account__action-bar,
+.activity-stream .detailed-status.light .status-card__image,
+.public-layout .public-account-bio,
+.public-layout .public-account-header__bar:before, .card__bar,
+.nothing-here,
+.hero-widget__text
+{
+    background: var(--bg);
+}
+
 body, .footer,
 .reply-indicator__content,
 .status__content,
@@ -200,107 +239,9 @@ body, .footer,
     color: var(--textMuted)
 }
 
-.reply-indicator__content a,
-.status__content a,
-.search-results__hashtag:active,
-.search-results__hashtag:focus,
-.search-results__hashtag:hover,
-.column-header__setting-btn:hover,
-.column-header__back-button:hover,
-.column-header.active .column-header__icon,
-.account__action-bar-dropdown .icon-button.active,
-.account__action-bar-dropdown .icon-button:hover,
-.icon-button.inverted:active,
-.icon-button.inverted:focus,
-.icon-button.inverted:hover,
-.text-icon-button:active,
-.text-icon-button:focus,
-.text-icon-button:hover,
-.compose-form .compose-form__warning a,
-.account__header__fields a,
-.getting-started p a,
-.getting-started a,
-.activity-stream .status.light .status__content a,
-.activity-stream-tabs a,
-.card .name small, .report-modal__statuses .status__content a,
-.landing-page #mastodon-timeline p a
-{
-    color: var(--accent)
-}
-
-.column-header,
-.column-back-button,
-.column-header__button,
-.column-header__button:hover,
-.column-header__button.active,
-.column-header__button.active:hover,
-.column-header__collapsible,
-.column-header__back-button,
-.column-header>.column-header__back-button,
-.column-settings__section,
-.setting-text, .setting-meta__label,
-.setting-toggle__label,
-.setting-text:active,
-.setting-text:focus,
-.status__content__spoiler-link,
-.status__content a.status__content__spoiler-link,
-.compose-form .compose-form__warning,
-.embed-modal .embed-modal__container .embed-modal__html:focus,
-.activity-stream .status.light .status__content a.status__content__spoiler-link,
-.activity-stream .detailed-status.light .status-card:hover .status-card__description,
-.activity-stream .detailed-status.light .status-card:hover .status-card__title,
-.keyboard-shortcuts kbd,
-.public-layout .header .nav-link
-{
-    color: var(--textHead)
-}
-
-.icon-button.disabled:hover
-{
-    color: var(--bg)
-}
-
-/*---------
-BACKGROUNDS
----------*/
-
-.search__input,
-.search__input:focus,
-.search-popout,
-.search-results__section h5 span,
-.search-results__header,
-.drawer__inner.darker,
-.drawer__header a:hover,
-.compose-form .autosuggest-textarea__textarea,
-.compose-form .spoiler-input__input,
-.compose-form .compose-form__modifiers,
-.privacy-dropdown__option,
-.column>.scrollable,
-.empty-column-indicator,
-.error-column,
-.column-link,
-.detailed-status,
-.detailed-status__action-bar,
-.activity-stream .entry,
-.activity-stream-tabs,
-.regeneration-indicator,
-.actions-modal,
-.boost-modal,
-.confirmation-modal,
-.mute-modal,
-.report-modal,
-.embed-modal,
-.error-modal,
-.onboarding-modal,
-.privacy-dropdown.active .privacy-dropdown__value, .account__action-bar,
-.activity-stream .detailed-status.light .status-card__image,
-.public-layout .public-account-bio,
-.public-layout .public-account-header__bar:before, .card__bar,
-.nothing-here,
-.hero-widget__text
-{
-    background: var(--bg);
-}
+/*---------------
+SECONDARY STYLING
+---------------*/
 
 body, body.app-body,
 .status.status-direct,
@@ -337,6 +278,10 @@ body, body.app-body,
     background: var(--bgPage)
 }
 
+/*---------------
+AUXILIARY STYLING
+---------------*/
+
 .column-header,
 .column-header__button,
 .column-back-button,
@@ -357,6 +302,33 @@ a.status-card:hover,
 .public-layout .header .nav-button
 {
     background: var(--bgHead);
+}
+
+.column-header,
+.column-back-button,
+.column-header__button,
+.column-header__button:hover,
+.column-header__button.active,
+.column-header__button.active:hover,
+.column-header__collapsible,
+.column-header__back-button,
+.column-header>.column-header__back-button,
+.column-settings__section,
+.setting-text, .setting-meta__label,
+.setting-toggle__label,
+.setting-text:active,
+.setting-text:focus,
+.status__content__spoiler-link,
+.status__content a.status__content__spoiler-link,
+.compose-form .compose-form__warning,
+.embed-modal .embed-modal__container .embed-modal__html:focus,
+.activity-stream .status.light .status__content a.status__content__spoiler-link,
+.activity-stream .detailed-status.light .status-card:hover .status-card__description,
+.activity-stream .detailed-status.light .status-card:hover .status-card__title,
+.keyboard-shortcuts kbd,
+.public-layout .header .nav-link
+{
+    color: var(--textHead)
 }
 
 .compose-form__publish .button,
@@ -385,27 +357,33 @@ a.status-card:hover,
     background: var(--accent)
 }
 
-.ui, .drawer__inner,
-.drawer__inner__mastodon,
-.account__header__fields dt
+.reply-indicator__content a,
+.status__content a,
+.search-results__hashtag:active,
+.search-results__hashtag:focus,
+.search-results__hashtag:hover,
+.column-header__setting-btn:hover,
+.column-header__back-button:hover,
+.column-header.active .column-header__icon,
+.account__action-bar-dropdown .icon-button.active,
+.account__action-bar-dropdown .icon-button:hover,
+.icon-button.inverted:active,
+.icon-button.inverted:focus,
+.icon-button.inverted:hover,
+.text-icon-button:active,
+.text-icon-button:focus,
+.text-icon-button:hover,
+.compose-form .compose-form__warning a,
+.account__header__fields a,
+.getting-started p a,
+.getting-started a,
+.activity-stream .status.light .status__content a,
+.activity-stream-tabs a,
+.card .name small, .report-modal__statuses .status__content a,
+.landing-page #mastodon-timeline p a
 {
-    background: transparent
+    color: var(--accent)
 }
-
-.account__section-headline a.active:after,
-.account__section-headline a.active:before,
-.community-timeline__section-headline a.active:after,
-.community-timeline__section-headline a.active:before,
-.public-timeline__section-headline a.active:after,
-.public-timeline__section-headline a.active:before
-{
-    border-color: transparent transparent var(--bg)
-}
-
-.public-layout .header {box-shadow: none;}
-.public-layout .header .brand {filter: drop-shadow(0px 0px 2px rgba(0,0,0,0.6))}
-.public-layout .public-account-header__tabs__tabs .counter:after
-{border-bottom: 4px solid var(--bgHead)}
 
 /*---
 FIXES
@@ -431,6 +409,27 @@ FIXES
         {background: var(--bgPage)}
 }
 
+.ui, .drawer__inner,
+.drawer__inner__mastodon,
+.account__header__fields dt
+{
+    background: transparent
+}
+
+.account__section-headline a.active:after,
+.account__section-headline a.active:before,
+.community-timeline__section-headline a.active:after,
+.community-timeline__section-headline a.active:before,
+.public-timeline__section-headline a.active:after,
+.public-timeline__section-headline a.active:before
+{
+    border-color: transparent transparent var(--bg)
+}
+
+.public-layout .header {box-shadow: none;}
+.public-layout .header .brand {filter: drop-shadow( 0px 0px 2px rgba(0,0,0,0.6) )}
+.public-layout .public-account-header__tabs__tabs .counter:after {border-bottom: 4px solid var(--bgHead)}
+
 .public-layout .footer .brand svg path {fill: var(--textMuted)}
 .public-layout .footer .brand:hover svg path {fill: var(--textBold)}
 
@@ -438,18 +437,14 @@ FIXES
 ADDITIONS AND MODS
 ----------------*/
 
-/*------------------------------
-always show full name and handle
-*/
+/* always show full name and handle */
 .display-name {overflow: visible; white-space: normal;}
 .account__avatar-wrapper {margin-left: 0px;}
 
-/*line break between name and handle*/
+/* line break between name and handle */
 .display-name__html {display: block;}
 
-/*-----------------
-circle profile pics
-*/
+/* circle profile pics */
 .card .avatar img,
 .activity-stream .status.light .status__avatar img,
 .account__avatar,
@@ -457,9 +452,7 @@ circle profile pics
 .account__avatar-overlay-overlay
 {border-radius: 50%}
 
-/*-----------------------------------------
-release elephant friend from their confines
-*/
+/* release elephant friend from their confines */
 .drawer__inner__mastodon > img {
     position: fixed;
     bottom: 0;
@@ -468,27 +461,22 @@ release elephant friend from their confines
     z-index: -1
 }
 
-/*--------------------------------------------------------------------
-make "getting started" column height consistent with all other columns
-*/
+/* make "getting started" column height consistent with all other columns */
 .getting-started__footer {margin-top: auto}
 
-/*----------------------------------------------------------
-make transparent images actually transparent in media modals
-*/
+/* make transparent images actually transparent in media modals */
 .media-modal canvas, .media-modal img {background: none}
 
-/*---------------------------------------------------------
-fix glowing elements when there are new toots to be fetched
-*/
+/* make boost button disappear when post isn't boostable */
+.icon-button.disabled:hover {color: var(--bg)}
+
+/* fix glowing elements when there are new toots to be fetched */
 .column-header.active .column-header__icon {text-shadow: 0 0 10px var(--accent);}
 .column-header.active {box-shadow: 0 0 0;}
 .column-header__wrapper.active:before {background: radial-gradient(ellipse, var(--accent) 0, rgba(0,0,0,0) 60%);}
 
-/* --------------------------------------------
-* various tweaks related to making account view
-* look a bit better
-*/
+/* --------------------------------------------------------------
+* various tweaks related to making account view look a bit better */
 
 .account__header .account__header__fields dt,
 .account__header .account__header__fields dd
