@@ -974,9 +974,6 @@ material design overrides
 .activity-stream .entry:last-child .status
 {border-radius: 2px}
 
-/* no borders */
-/* {border: 0 !important}
-
 /*------------------------------------------------------------------------------
 * RECOLOR STATUS ACTIONS
 *
@@ -1002,7 +999,7 @@ material design overrides
 *    - breaks boosting animation
 *
 * I have chosen option 2.
-*------------------------------------------------------------------------------/
+------------------------------------------------------------------------------*/
 
 /* add shadow on hover and active states */
 .status__action-bar .icon-button:hover,
