@@ -1011,26 +1011,42 @@ material design overrides
 {filter: drop-shadow(0px 1px 0px rgba(0,0,0,0.6))}
 
 /* replies and follows */
-.status__action-bar-button:hover .fa-reply,
-    .status__action-bar-button:hover .fa-reply-all,
-    .icon-button:hover .fa-reply,
-    .icon-button:hover .fa-reply-all,
+.status__action-bar-button.icon-button:nth-child(1):hover,
+.status__action-bar-button.icon-button:nth-child(1):active,
+.status__action-bar-button.icon-button:nth-child(1).active,
+.status__action-bar-button.icon-button:nth-child(1):focus,
+.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button:hover,
+.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button:active,
+.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button.active,
+.detailed-status__action-bar .detailed-status__button:nth-child(1) .icon-button:focus,
 .notification__message .fa.fa-user-plus,
 .account .icon-button:active,
-    .account .icon-button:focus,
-    .account .icon-button:hover
+.account .icon-button.active,
+.account .icon-button:focus,
+.account .icon-button:hover
 {color: #0bf;}
 
 /* favourites */
-.notification__favourite-icon-wrapper .star-icon,
-    .star-icon.active,
-    .icon-button:hover .fa-star,
-    .icon-button.active .fa-star
+.status__action-bar-button.icon-button:nth-child(3):hover,
+.status__action-bar-button.icon-button:nth-child(3):active,
+.status__action-bar-button.icon-button:nth-child(3).active,
+.status__action-bar-button.icon-button:nth-child(3):focus,
+.detailed-status__action-bar .detailed-status__button:nth-child(3) .icon-button:hover,
+.detailed-status__action-bar .detailed-status__button:nth-child(3) .icon-button:active,
+.detailed-status__action-bar .detailed-status__button:nth-child(3) .icon-button.active,
+.detailed-status__action-bar .detailed-status__button:nth-child(3) .icon-button:focus,
+.notification__favourite-icon-wrapper .star-icon
 {color: #f90;}
 
 /* menu */
-.icon-button:hover .fa-ellipsis-h,
-.icon-button.active .fa-ellipsis-h
+.status__action-bar-dropdown .icon-button:hover,
+.status__action-bar-dropdown .icon-button:active,
+.status__action-bar-dropdown .icon-button.active,
+.status__action-bar-dropdown .icon-button.focus,
+.detailed-status__action-bar-dropdown .icon-button:hover,
+.detailed-status__action-bar-dropdown .icon-button:active,
+.detailed-status__action-bar-dropdown .icon-button.active,
+.detailed-status__action-bar-dropdown .icon-button:focus
 {color: #90f;}
 
 /* share */
