@@ -358,6 +358,9 @@ base background and text
     .column-subheading,
     .content-wrapper,
     .media-spoiler,
+        .video-player__spoiler,
+        .video-player__spoiler.active:active,
+        .video-player__spoiler.active:focus,
 /* in reply to */
 .reply-indicator,
     .reply-indicator__display-name,
@@ -601,6 +604,7 @@ accented links
     .media-spoiler:active,
         .media-spoiler:focus,
         .media-spoiler:hover,
+        .video-player__spoiler.active:hover,
     .column-header__setting-btn:hover,
         .column-inline-form .icon-button:hover,
 /* post options */
