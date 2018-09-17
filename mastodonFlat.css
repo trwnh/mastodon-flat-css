@@ -762,6 +762,7 @@ deal with borders
 /* recolor some other borders */
 .account,
 .status,
+.load-gap,
 .button.button-secondary,
 .account__header__fields,
     .account__header__fields dl:last-child,
@@ -931,7 +932,7 @@ material design overrides
 /* turn statuses into cards */
 .drawer__inner darker {filter: drop-shadow(0 0 2px black)}
 .status {
-    filter: drop-shadow(0 0 2px black);
+    box-shadow: 0px 0px 2px black;
     background: var(--bg);
     margin: 8px;
     border-radius: 2px;
