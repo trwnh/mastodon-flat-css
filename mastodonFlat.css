@@ -751,6 +751,7 @@ deal with borders
 .account__header__fields dl,
     .account__header .account__header__fields dl,
 .account__section-headline,
+.search-results__section h5,
 .public-layout .public-account-header__bar .avatar img,
     .public-layout .public-account-header__tabs__tabs .counter
 {border: none}
@@ -769,7 +770,7 @@ deal with borders
 
 /* fix detailed status borders */
 .detailed-status__action-bar
-{border-color: transparent transparent var(--textPageMuted) transparent !important}
+{border-color: transparent transparent var(--bgPage) transparent !important}
 
 /*------------------------------------------------------------------------------
 * ADDITIONS AND MODS 
