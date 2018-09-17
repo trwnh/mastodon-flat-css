@@ -223,6 +223,7 @@ base background and text
     .report-modal,
     .list-editor,
         .list-editor .drawer__inner.backdrop,
+    .account__moved-note,
 /* profile cards */
     .card__bar,
         .card>a:active .card__bar,
@@ -296,6 +297,7 @@ override for muted text
     .status__action-bar__counter__label,
     .status__prepend,
         .status__prepend .status__display-name strong,
+    .account__moved-note__message,
     .attachment-list.compact .fa,
     .icon-button,
         .icon-button.disabled,
@@ -748,6 +750,7 @@ deal with borders
 
 /* remove most borders */
 .setting-text,
+.account__moved-note,
 .account__header__fields dl,
     .account__header .account__header__fields dl,
 .account__section-headline,
