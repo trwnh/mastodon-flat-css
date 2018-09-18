@@ -786,7 +786,7 @@ deal with borders
 * Tweaks and redesigns that improve the look of the overall style.
 * These may be enabled or disabled, but are recommended to enable.
 * They may also be extensions, but not "miscellaneous" enough.
-*------------------------------------------------------------------------------/
+------------------------------------------------------------------------------*/
 
 /*
 * Add a line break between display name and account handle:
@@ -814,6 +814,13 @@ deal with borders
     .account__avatar-overlay-base,
     .account__avatar-overlay-overlay
 {border-radius: 50%}
+
+/*
+* Fade out faved/boosted toots in notifications:
+* - for "x favourited your toot" / "x boosted your toot",
+* - make the faved/boosted toot half-transparent.
+*/
+.status.muted {opacity: 0.5}
 
 /*
 * Release elephant friend from their confines:
