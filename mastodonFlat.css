@@ -306,6 +306,7 @@ override for muted text
     .compose-form .icon-button.inverted,
         .compose-form .text-icon-button,
         .compose-form .compose-form__buttons-wrapper .character-counter__wrapper .character-counter,
+    .upload-progress,
     .search__icon .fa,
         .search__icon .fa-times-circle,
         .trends__item__name,
