@@ -571,6 +571,7 @@ accented buttons
     .mute-modal__action-bar .mute-modal__cancel-button:active,
         .mute-modal__action-bar .mute-modal__cancel-button:focus,
         .mute-modal__action-bar .mute-modal__cancel-button:hover,
+    .upload-progress__tracker,
 /* public pages */
     .public-layout .header .nav-button:hover,
     .button.button-secondary:hover,
