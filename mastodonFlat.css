@@ -498,7 +498,8 @@ headers and warnings
         .column-header>.column-header__back-button,
         .column-header.active .column-header__icon,
     .search-results__header,
-    .keyboard-shortcuts kbd
+    .keyboard-shortcuts kbd,
+    .compose-form__warning,
 /* settings pages */
     .list-editor h4,
     .admin-wrapper .content h4,
@@ -618,6 +619,7 @@ accented links
         .navigation-bar__profile-account:hover,
         .account__action-bar-dropdown .icon-button:hover,
         .account__section-headline a:hover,
+    .compose-form .compose-form__warning a,
 /* modals */
     .list-editor .account .icon-button:hover,
         .list-editor .account .icon-button:active,
