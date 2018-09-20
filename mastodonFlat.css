@@ -766,6 +766,7 @@ deal with borders
 /* recolor some other borders */
 .account,
 .status,
+    .status__wrapper--filtered,
 .load-gap,
 .button.button-secondary,
 .account__header__fields,
@@ -950,6 +951,7 @@ material design overrides
     border-radius: 2px;
     border: 0
 }
+.status__wrapper--filtered {border: none}
 
 /* recolors */
 .column>.scrollable,
