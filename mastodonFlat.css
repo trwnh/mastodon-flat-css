@@ -613,6 +613,7 @@ accented links
     .compose-form .text-icon-button:hover,
         .text-icon-button.active,
         .drawer__inner .icon-button:hover,
+        .icon-button.inverted.active.disabled,
     .navigation-bar__profile-edit:hover,
         .navigation-bar__profile-account:hover,
         .account__action-bar-dropdown .icon-button:hover,
