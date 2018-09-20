@@ -753,6 +753,7 @@ deal with borders
 ---------------*/
 
 /* remove most borders */
+.status-card,
 .setting-text,
 .account__moved-note,
 .account__header__fields dl,
