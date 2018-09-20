@@ -500,6 +500,7 @@ headers and warnings
     .search-results__header,
     .keyboard-shortcuts kbd,
     .compose-form__warning,
+        .compose-form .compose-form__warning,
 /* settings pages */
     .list-editor h4,
     .admin-wrapper .content h4,
