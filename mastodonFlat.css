@@ -739,10 +739,9 @@ public page fixes
 {box-shadow: none; border-radius: 0px}
 
 /* toots, following, followers */
-.public-layout .public-account-header__tabs__tabs .counter.active::after
-{border-bottom: 4px solid var(--bgHead)}
 .public-layout .public-account-header__tabs__tabs .counter::after
 {border-bottom: 4px solid var(--textMuted)}
+.public-layout .public-account-header__tabs__tabs .counter.active::after,
 .public-layout .public-account-header__tabs__tabs .counter:hover::after
 {border-bottom: 4px solid var(--accent)}
 
