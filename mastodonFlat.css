@@ -19,6 +19,19 @@
     .landing-page .container {max-width: 1600px}
 }
 
+/* move tab bar to bottom on mobile */
+@media (max-width: 640px) {
+    .tabs-bar {
+        position: absolute;
+        bottom: 0;
+        z-index: 1;
+        width: 100%;
+    }
+    .react-swipeable-view-container {height: calc(100% - 50px)}
+    .floating-action-button {margin-bottom: 50px}
+    .tabs-bar {background: var(--bgHead) !important; color: var(--textHead) !important}
+}
+
 /* custom font */
 body,
 .landing-page #mastodon-timeline,
