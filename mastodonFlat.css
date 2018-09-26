@@ -190,7 +190,9 @@ base background and text
     .search__input,
         .search__input:focus,
     .search-results .account,
-    .trends__item__name a,
+    .trends__item,
+        .trends__item__name a,
+        .trends__item__current,
 /* compose form */
     .reply-indicator__content, /* in reply to */
     .compose-form .spoiler-input__input, /* cw */
