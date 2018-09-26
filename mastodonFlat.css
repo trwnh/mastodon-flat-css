@@ -347,6 +347,7 @@ base background and text
 /* background and drawer */
     .ui,
     .drawer__tab,
+    .tabs-bar,
     .search-results__section h5,
 /* DMs */
     .status.status-direct,
@@ -642,7 +643,9 @@ accented links
 /* settings pages */
     .pagination a:hover,
         .pagination .newer:hover,
-        .pagination .older:hover
+        .pagination .older:hover,
+/* mobile elements */
+    .tabs-bar__link.active
 {
     color: var(--accent)
 }
@@ -788,8 +791,9 @@ deal with borders
 .admin-wrapper .content h4
 {border-color: var(--textPageMuted) !important}
 
-/* active tab on profile */
-.account__action-bar__tab.active
+/* active tabs */
+.account__action-bar__tab.active,
+.tabs-bar__link.active
 {border-color: var(--accent) !important}
 
 /* fix detailed status borders */
