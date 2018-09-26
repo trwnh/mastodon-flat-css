@@ -11,9 +11,13 @@
 ------------------------------------------------------------------------------*/
 
 /* wider columns */
-.column, #mastodon-timeline {min-width: 60ch;}
+@media (min-width: 640px) {
+    .column, #mastodon-timeline {min-width: 60ch;}
+}
 /* allow for wider layout on bigger screens */
-.landing-page .container {max-width: 1600px}
+@media (min-width: 1600px) {
+    .landing-page .container {max-width: 1600px}
+}
 
 /* custom font */
 body,
