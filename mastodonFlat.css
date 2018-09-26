@@ -173,6 +173,7 @@ base background and text
 
 /* status columns */
     .column>.scrollable,
+    .status,
     .status__content,
     .detailed-status,
         .detailed-status__action-bar,
@@ -188,7 +189,7 @@ base background and text
 /* search */
     .search__input,
         .search__input:focus,
-    .drawer__inner.darker,
+    .search-results .account,
     .trends__item__name a,
 /* compose form */
     .reply-indicator__content, /* in reply to */
