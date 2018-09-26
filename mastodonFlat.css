@@ -532,6 +532,7 @@ accented buttons
         .button:focus,
         .button:hover,
     .icon-button.overlayed:hover,
+    .floating-action-button,
     .simple_form button,
         .simple_form button:active,
         .simple_form button:focus,
