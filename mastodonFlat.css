@@ -241,6 +241,7 @@ base background and text
     .confirmation-modal,
     .mute-modal,
     .report-modal,
+        .report-modal__statuses .status__content p,
     .list-editor,
         .list-editor .drawer__inner.backdrop,
     .account__moved-note,
