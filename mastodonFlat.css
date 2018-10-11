@@ -809,9 +809,10 @@ deal with borders
 {border-color: var(--textPageMuted) !important}
 
 /* active tabs */
+.account__action-bar__tab {border-bottom: 0px solid transparent}
 .account__action-bar__tab.active,
 .tabs-bar__link.active
-{border-color: var(--accent) !important}
+{border-bottom-color: var(--accent) !important}
 
 /* fix detailed status borders */
 .detailed-status__action-bar
