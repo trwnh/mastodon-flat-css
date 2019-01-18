@@ -49,6 +49,9 @@ body,
 ::-webkit-scrollbar-track {background: rgba(0,0,0,0.4)}
 ::-webkit-scrollbar-thumb {background: rgba(255,255,255,0.4)}
 
+/* recolor scrollbars in firefox */
+.scrollable, .report-modal__statuses {scrollbar-color: var(--bg) var(--bgPage);}
+
 /*------------------------------------------------------------------------------
 * DEFINE COLOR PALETTE
 *
@@ -195,7 +198,6 @@ base background and text
     .setting-text,
         .setting-text:active,
         .setting-text:focus,
-    .domain .domain__domain-name,
     .status-direct .status__content .status__content__spoiler-link,
     .column-link,
         .getting-started a.column-link,
@@ -242,6 +244,7 @@ base background and text
     .mute-modal,
     .report-modal,
         .report-modal__statuses .status__content p,
+        .report-modal__comment .setting-toggle__label,
     .list-editor,
         .list-editor .drawer__inner.backdrop,
     .account__moved-note,
@@ -384,6 +387,7 @@ base background and text
         .video-player__spoiler,
         .video-player__spoiler.active:active,
         .video-player__spoiler.active:focus,
+    .react-toggle-track,
 /* in reply to */
 .reply-indicator,
     .reply-indicator__display-name,
@@ -418,6 +422,7 @@ base background and text
     .error-column,
         .regeneration-indicator,
         .empty-column-indicator,
+    .report-modal__comment .setting-text,
 /* opengraph previews */
     .status-card__content,
     .status-card__description,
@@ -487,6 +492,7 @@ override for muted text
         .admin-wrapper .content>p,
     .status-card__host,
     .button:disabled,
+    .loading-indicator,
 /* public pages */
     .endorsements-widget .display-name__account,
     .public-layout .footer h4,
@@ -523,6 +529,7 @@ headers and warnings
     .keyboard-shortcuts kbd,
     .compose-form__warning,
         .compose-form .compose-form__warning,
+    .react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track,
 /* settings pages */
     .list-editor h4,
     .admin-wrapper .content h4,
@@ -601,7 +608,12 @@ accented buttons
     .public-layout .header .nav-button:hover,
     .button.button-secondary:hover,
 /* settings pages */
-    .pagination .page.current:hover
+    .pagination .page.current:hover,
+/* video player ui */
+    .video-player__seek__buffer,
+    .video-player__seek__progress,
+    .video-player__volume__current,
+    .video-player__volume__handle
 {
     background: var(--accent);
     color: var(--accentText);
@@ -617,6 +629,7 @@ accented links
         .getting-started p a,
     .reply-indicator__content a,
         .reply-indicator__cancel .icon-button.inverted:hover,
+    .status__content__read-more-button,
     .icon-button.active,
         .icon-button:focus,
         .icon-button:hover,
@@ -785,6 +798,7 @@ deal with borders
 /* remove most borders */
 .status-card,
 .setting-text,
+.flash-message.notice,
 .account__moved-note,
 .account__header__fields dl,
     .account__header .account__header__fields dl,
@@ -799,6 +813,7 @@ deal with borders
 .status,
     .status__wrapper--filtered,
 .load-gap,
+.loading-indicator__figure,
 .button.button-secondary,
 .account__header__fields,
     .account__header__fields dl:last-child,
@@ -817,6 +832,10 @@ deal with borders
 /* fix detailed status borders */
 .detailed-status__action-bar
 {border-color: transparent transparent var(--bgPage) transparent !important}
+
+/* domain blocks */
+.domain {border-color: var(--bgPage)}
+.domain .domain__domain-name {background: transparent}
 
 /*------------------------------------------------------------------------------
 * ADDITIONS AND MODS 
@@ -946,6 +965,20 @@ deal with borders
     background: radial-gradient(ellipse, var(--accent) 0, rgba(0,0,0,0) 60%);
 }
 
+/*
+* Fix highlights on unread DM conversations
+* - new conversations view in 2.6.0
+* - 2.6.0 adds highlight, :not(.read) has its own bg
+* - instead, let's add a dot next to the timestamp
+*/
+.status.status-direct:not(.read) {background: var(--bgPage);}
+.column[aria-label="Direct messages"] .status.status-direct:not(.read) .status__relative-time:before
+{
+    content: "⏺ ";
+    font-size: 1em;
+    color: var(--accent);
+}
+
 /* ------------------------------------------------------------
 various tweaks related to making account view look a bit better
 -------------------------------------------------------------*/
@@ -1002,12 +1035,19 @@ various tweaks related to making account view look a bit better
     )
 }
 
-/* fade out buttons that can't be clicked */
+/*
+Hide buttons that can't be clicked
+- columns on /about and tag pages have buttons that don't work.
+- so, this snippet hides those nonworking buttons to save space
+- and to avoid confusion.
+- unboostable buttons are made transparent on hover instead.
+*/
 .status__action-bar .icon-button.disabled:hover,
 .notification-favourite .status.status-direct .icon-button.disabled:hover
 {
-    color: transparent
+    color: transparent !important
 }
+#mastodon-timeline .status__action-bar {display: none}
 
 /*-----------------------
 material design overrides
@@ -1023,6 +1063,7 @@ material design overrides
     border: 0
 }
 .status__wrapper--filtered {border: none}
+.detailed-status__wrapper {margin: 8px;} /*might look weird in older versions pre-2.6?*/
 
 /* recolors */
 .column>.scrollable,
