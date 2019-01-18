@@ -369,6 +369,10 @@ base background and text
     .drawer__tab,
     .tabs-bar,
     .search-results__section h5,
+    .account__section-headline,
+        .account__section-headline button,
+    .notification__filter-bar,
+        .notification__filter-bar button,
 /* DMs */
     .status.status-direct,
         .focusable:focus .status.status-direct,
@@ -427,7 +431,6 @@ base background and text
     .status-card__content,
     .status-card__description,
     .button:disabled,
-    .account__section-headline,
 /* public pages */
     body,
         body.lighter,
@@ -706,7 +709,9 @@ accented links
     .community-timeline__section-headline a.active:after,
     .community-timeline__section-headline a.active:before,
     .public-timeline__section-headline a.active:after,
-    .public-timeline__section-headline a.active:before
+    .public-timeline__section-headline a.active:before,
+    .notification__filter-bar button.active::before,
+    .notification__filter-bar button.active::after
 {
     border-color: transparent transparent var(--bg)
 }
@@ -803,6 +808,7 @@ deal with borders
 .account__header__fields dl,
     .account__header .account__header__fields dl,
 .account__section-headline,
+.notification__filter-bar,
 .search-results__section h5,
 .public-layout .public-account-header__bar .avatar img,
     .public-layout .public-account-header__tabs__tabs .counter
@@ -1095,7 +1101,9 @@ material design overrides
 .community-timeline__section-headline a.active:after,
 .community-timeline__section-headline a.active:before,
 .public-timeline__section-headline a.active:after,
-.public-timeline__section-headline a.active:before
+.public-timeline__section-headline a.active:before,
+.notification__filter-bar button.active::before,
+.notification__filter-bar button.active::after
 {
     border-color: transparent transparent var(--bgHead)
 }
