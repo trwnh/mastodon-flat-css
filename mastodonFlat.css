@@ -1001,6 +1001,10 @@ various tweaks related to making account view look a bit better
 .public-account-bio .account__header__fields dt
 {background: var(--bg); color: var(--text)}
 
+/* verified links */
+.account__header .account__header__fields dd.verified
+{background: var(--bg)}
+
 /* bold profile field keys */
 .account__header .account__header__fields dt
 {font-weight: 700}
