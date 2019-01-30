@@ -431,6 +431,7 @@ base background and text
 /* opengraph previews */
     .status-card__content,
     .status-card__description,
+    .status-card__image,
     .button:disabled,
 /* public pages */
     body,
