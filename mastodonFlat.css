@@ -834,13 +834,7 @@ deal with borders
 .account__action-bar,
     .account__action-bar__tab,
 .account__disclaimer,
-.admin-wrapper .content h4,
-.report-modal__container,
-  .report-modal__comment,
-    .report-modal__comment:active,
-    .report-modal__comment:focus,
-  .report-modal__comment .setting-text,
-  .status-check-box
+.admin-wrapper .content h4
 {border-color: var(--textPageMuted) !important}
 
 /* active tabs */
@@ -853,8 +847,15 @@ deal with borders
 .detailed-status__action-bar
 {border-color: transparent transparent var(--bgPage) transparent !important}
 
-/* domain blocks */
-.domain {border-color: var(--bgPage)}
+/* domain blocks and report modal */
+.domain,
+.report-modal__container,
+  .report-modal__comment,
+    .report-modal__comment:active,
+    .report-modal__comment:focus,
+  .report-modal__comment .setting-text,
+  .status-check-box
+{border-color: var(--bgPage)}
 .domain .domain__domain-name {background: transparent}
 
 /*------------------------------------------------------------------------------
