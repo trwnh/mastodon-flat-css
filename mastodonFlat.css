@@ -243,6 +243,7 @@ base background and text
     .confirmation-modal,
     .mute-modal,
     .report-modal,
+        .report-modal__statuses .status__content,
         .report-modal__statuses .status__content p,
         .report-modal__comment .setting-toggle__label,
     .list-editor,
@@ -533,6 +534,8 @@ headers and warnings
     .compose-form__warning,
         .compose-form .compose-form__warning,
     .react-toggle:hover:not(.react-toggle--disabled) .react-toggle-track,
+    .report-modal__target,
+    .media-modal__close.icon-button,
 /* settings pages */
     .list-editor h4,
     .admin-wrapper .content h4,
@@ -666,6 +669,9 @@ accented links
     .list-editor .account .icon-button:hover,
         .list-editor .account .icon-button:active,
         .list-editor .account .icon-button:focus,
+    .report-modal__statuses .status__content a
+    .media-modal__close.icon-button:hover,
+    .media-modal__close.icon-button:focus,
 /* public pages */
     .landing-page__short-description p a,
         .landing-page #mastodon-timeline p a,
@@ -828,7 +834,13 @@ deal with borders
 .account__action-bar,
     .account__action-bar__tab,
 .account__disclaimer,
-.admin-wrapper .content h4
+.admin-wrapper .content h4,
+.report-modal__container,
+  .report-modal__comment,
+    .report-modal__comment:active,
+    .report-modal__comment:focus,
+  .report-modal__comment .setting-text,
+  .status-check-box
 {border-color: var(--textPageMuted) !important}
 
 /* active tabs */
